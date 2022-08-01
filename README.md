@@ -7,4 +7,6 @@ To run:
 2. Enter the folder you cloned the repo to, and run <code> yarn install </code>
 3. Run <code> yarn generate </code>
 
+To test, run <code> yarn test </code>
+
 Assuming all went well (and the oswiki layout didn't change...), quest list with requirements should be available in the <code> quests.json </code> file.
