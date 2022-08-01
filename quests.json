@@ -1,0 +1,2398 @@
+[
+	{
+		"name": "Below Ice Mountain",
+		"uri": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+		"partialUri": "/w/Below_Ice_Mountain",
+		"reqs": []
+	},
+	{
+		"name": "Black Knights' Fortress",
+		"uri": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+		"partialUri": "/w/Black_Knights%27_Fortress",
+		"reqs": []
+	},
+	{
+		"name": "Cook's Assistant",
+		"uri": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+		"partialUri": "/w/Cook%27s_Assistant",
+		"reqs": []
+	},
+	{
+		"name": "The Corsair Curse",
+		"uri": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+		"partialUri": "/w/The_Corsair_Curse",
+		"reqs": []
+	},
+	{
+		"name": "Demon Slayer",
+		"uri": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+		"partialUri": "/w/Demon_Slayer",
+		"reqs": []
+	},
+	{
+		"name": "Doric's Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+		"partialUri": "/w/Doric%27s_Quest",
+		"reqs": []
+	},
+	{
+		"name": "Dragon Slayer I",
+		"uri": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I",
+		"partialUri": "/w/Dragon_Slayer_I",
+		"reqs": []
+	},
+	{
+		"name": "Ernest the Chicken",
+		"uri": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+		"partialUri": "/w/Ernest_the_Chicken",
+		"reqs": []
+	},
+	{
+		"name": "Goblin Diplomacy",
+		"uri": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+		"partialUri": "/w/Goblin_Diplomacy",
+		"reqs": []
+	},
+	{
+		"name": "Imp Catcher",
+		"uri": "https://oldschool.runescape.wiki/w/Imp_Catcher",
+		"partialUri": "/w/Imp_Catcher",
+		"reqs": []
+	},
+	{
+		"name": "The Knight's Sword",
+		"uri": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+		"partialUri": "/w/The_Knight%27s_Sword",
+		"reqs": [
+			{
+				"skill": "Mining",
+				"level": "10",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Misthalin Mystery",
+		"uri": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+		"partialUri": "/w/Misthalin_Mystery",
+		"reqs": []
+	},
+	{
+		"name": "Pirate's Treasure",
+		"uri": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+		"partialUri": "/w/Pirate%27s_Treasure",
+		"reqs": []
+	},
+	{
+		"name": "Prince Ali Rescue",
+		"uri": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+		"partialUri": "/w/Prince_Ali_Rescue",
+		"reqs": []
+	},
+	{
+		"name": "The Restless Ghost",
+		"uri": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+		"partialUri": "/w/The_Restless_Ghost",
+		"reqs": []
+	},
+	{
+		"name": "Romeo & Juliet",
+		"uri": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+		"partialUri": "/w/Romeo_%26_Juliet",
+		"reqs": []
+	},
+	{
+		"name": "Rune Mysteries",
+		"uri": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+		"partialUri": "/w/Rune_Mysteries",
+		"reqs": []
+	},
+	{
+		"name": "Sheep Shearer",
+		"uri": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+		"partialUri": "/w/Sheep_Shearer",
+		"reqs": []
+	},
+	{
+		"name": "Shield of Arrav",
+		"uri": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+		"partialUri": "/w/Shield_of_Arrav",
+		"reqs": []
+	},
+	{
+		"name": "Vampyre Slayer",
+		"uri": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+		"partialUri": "/w/Vampyre_Slayer",
+		"reqs": []
+	},
+	{
+		"name": "Witch's Potion",
+		"uri": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+		"partialUri": "/w/Witch%27s_Potion",
+		"reqs": []
+	},
+	{
+		"name": "X Marks the Spot",
+		"uri": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+		"partialUri": "/w/X_Marks_the_Spot",
+		"reqs": []
+	},
+	{
+		"name": "Druidic Ritual",
+		"uri": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
+		"partialUri": "/w/Druidic_Ritual",
+		"reqs": []
+	},
+	{
+		"name": "Lost City",
+		"uri": "https://oldschool.runescape.wiki/w/Lost_City",
+		"partialUri": "/w/Lost_City",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "31",
+				"boostable": true
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "36",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Witch's House",
+		"uri": "https://oldschool.runescape.wiki/w/Witch%27s_House",
+		"partialUri": "/w/Witch%27s_House",
+		"reqs": []
+	},
+	{
+		"name": "Merlin's Crystal",
+		"uri": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
+		"partialUri": "/w/Merlin%27s_Crystal",
+		"reqs": []
+	},
+	{
+		"name": "Heroes' Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
+		"partialUri": "/w/Heroes%27_Quest",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "53",
+				"boostable": true
+			},
+			{
+				"skill": "Fishing",
+				"level": "53",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "25",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "50",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Scorpion Catcher",
+		"uri": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
+		"partialUri": "/w/Scorpion_Catcher",
+		"reqs": [
+			{
+				"skill": "Prayer",
+				"level": "31",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Family Crest",
+		"uri": "https://oldschool.runescape.wiki/w/Family_Crest",
+		"partialUri": "/w/Family_Crest",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "59",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "40",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Fishing Contest",
+		"uri": "https://oldschool.runescape.wiki/w/Fishing_Contest",
+		"partialUri": "/w/Fishing_Contest",
+		"reqs": [
+			{
+				"skill": "Fishing",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Tribal Totem",
+		"uri": "https://oldschool.runescape.wiki/w/Tribal_Totem",
+		"partialUri": "/w/Tribal_Totem",
+		"reqs": [
+			{
+				"skill": "Thieving",
+				"level": "21",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Monk's Friend",
+		"uri": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
+		"partialUri": "/w/Monk%27s_Friend",
+		"reqs": []
+	},
+	{
+		"name": "Temple of Ikov",
+		"uri": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
+		"partialUri": "/w/Temple_of_Ikov",
+		"reqs": [
+			{
+				"skill": "Ranged",
+				"level": "40",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "42",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Clock Tower",
+		"uri": "https://oldschool.runescape.wiki/w/Clock_Tower",
+		"partialUri": "/w/Clock_Tower",
+		"reqs": []
+	},
+	{
+		"name": "Holy Grail",
+		"uri": "https://oldschool.runescape.wiki/w/Holy_Grail",
+		"partialUri": "/w/Holy_Grail",
+		"reqs": [
+			{
+				"skill": "Attack",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Tree Gnome Village",
+		"uri": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
+		"partialUri": "/w/Tree_Gnome_Village",
+		"reqs": []
+	},
+	{
+		"name": "Fight Arena",
+		"uri": "https://oldschool.runescape.wiki/w/Fight_Arena",
+		"partialUri": "/w/Fight_Arena",
+		"reqs": []
+	},
+	{
+		"name": "Hazeel Cult",
+		"uri": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
+		"partialUri": "/w/Hazeel_Cult",
+		"reqs": []
+	},
+	{
+		"name": "Sheep Herder",
+		"uri": "https://oldschool.runescape.wiki/w/Sheep_Herder",
+		"partialUri": "/w/Sheep_Herder",
+		"reqs": []
+	},
+	{
+		"name": "Plague City",
+		"uri": "https://oldschool.runescape.wiki/w/Plague_City",
+		"partialUri": "/w/Plague_City",
+		"reqs": []
+	},
+	{
+		"name": "Sea Slug",
+		"uri": "https://oldschool.runescape.wiki/w/Sea_Slug",
+		"partialUri": "/w/Sea_Slug",
+		"reqs": [
+			{
+				"skill": "Firemaking",
+				"level": "30",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Waterfall Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
+		"partialUri": "/w/Waterfall_Quest",
+		"reqs": []
+	},
+	{
+		"name": "Jungle Potion",
+		"uri": "https://oldschool.runescape.wiki/w/Jungle_Potion",
+		"partialUri": "/w/Jungle_Potion",
+		"reqs": [
+			{
+				"skill": "Herblore",
+				"level": "3",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Grand Tree",
+		"uri": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
+		"partialUri": "/w/The_Grand_Tree",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "25",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Underground Pass",
+		"uri": "https://oldschool.runescape.wiki/w/Underground_Pass",
+		"partialUri": "/w/Underground_Pass",
+		"reqs": [
+			{
+				"skill": "Ranged",
+				"level": "25",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Observatory Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Observatory_Quest",
+		"partialUri": "/w/Observatory_Quest",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Tourist Trap",
+		"uri": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
+		"partialUri": "/w/The_Tourist_Trap",
+		"reqs": [
+			{
+				"skill": "Fletching",
+				"level": "10",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Watchtower",
+		"uri": "https://oldschool.runescape.wiki/w/Watchtower",
+		"partialUri": "/w/Watchtower",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "25",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "14",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "14",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "15",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Dwarf Cannon",
+		"uri": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
+		"partialUri": "/w/Dwarf_Cannon",
+		"reqs": []
+	},
+	{
+		"name": "Murder Mystery",
+		"uri": "https://oldschool.runescape.wiki/w/Murder_Mystery",
+		"partialUri": "/w/Murder_Mystery",
+		"reqs": []
+	},
+	{
+		"name": "The Dig Site",
+		"uri": "https://oldschool.runescape.wiki/w/The_Dig_Site",
+		"partialUri": "/w/The_Dig_Site",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "10",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "10",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "25",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Gertrude's Cat",
+		"uri": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
+		"partialUri": "/w/Gertrude%27s_Cat",
+		"reqs": []
+	},
+	{
+		"name": "Legends' Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
+		"partialUri": "/w/Legends%27_Quest",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Crafting",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "45",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "56",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "52",
+				"boostable": true
+			},
+			{
+				"skill": "Prayer",
+				"level": "42",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Strength",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "50",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Death Plateau",
+		"uri": "https://oldschool.runescape.wiki/w/Death_Plateau",
+		"partialUri": "/w/Death_Plateau",
+		"reqs": []
+	},
+	{
+		"name": "Eadgar's Ruse",
+		"uri": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
+		"partialUri": "/w/Eadgar%27s_Ruse",
+		"reqs": [
+			{
+				"skill": "Herblore",
+				"level": "31",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Big Chompy Bird Hunting",
+		"uri": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
+		"partialUri": "/w/Big_Chompy_Bird_Hunting",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "30",
+				"boostable": true
+			},
+			{
+				"skill": "Fletching",
+				"level": "5",
+				"boostable": true
+			},
+			{
+				"skill": "Ranged",
+				"level": "30",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Elemental Workshop I",
+		"uri": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
+		"partialUri": "/w/Elemental_Workshop_I",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Nature Spirit",
+		"uri": "https://oldschool.runescape.wiki/w/Nature_Spirit",
+		"partialUri": "/w/Nature_Spirit",
+		"reqs": []
+	},
+	{
+		"name": "Priest in Peril",
+		"uri": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
+		"partialUri": "/w/Priest_in_Peril",
+		"reqs": []
+	},
+	{
+		"name": "Regicide",
+		"uri": "https://oldschool.runescape.wiki/w/Regicide",
+		"partialUri": "/w/Regicide",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "56",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Tai Bwo Wannai Trio",
+		"uri": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
+		"partialUri": "/w/Tai_Bwo_Wannai_Trio",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "15",
+				"boostable": false
+			},
+			{
+				"skill": "Cooking",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Fishing",
+				"level": "5",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Troll Stronghold",
+		"uri": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
+		"partialUri": "/w/Troll_Stronghold",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "15",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Shades of Mort'ton",
+		"uri": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
+		"partialUri": "/w/Shades_of_Mort%27ton",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "5",
+				"boostable": false
+			},
+			{
+				"skill": "Herblore",
+				"level": "15",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "The Fremennik Trials",
+		"uri": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
+		"partialUri": "/w/The_Fremennik_Trials",
+		"reqs": []
+	},
+	{
+		"name": "Horror from the Deep",
+		"uri": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
+		"partialUri": "/w/Horror_from_the_Deep",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "35",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Throne of Miscellania",
+		"uri": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
+		"partialUri": "/w/Throne_of_Miscellania",
+		"reqs": []
+	},
+	{
+		"name": "Monkey Madness I",
+		"uri": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
+		"partialUri": "/w/Monkey_Madness_I",
+		"reqs": []
+	},
+	{
+		"name": "Haunted Mine",
+		"uri": "https://oldschool.runescape.wiki/w/Haunted_Mine",
+		"partialUri": "/w/Haunted_Mine",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "35",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Troll Romance",
+		"uri": "https://oldschool.runescape.wiki/w/Troll_Romance",
+		"partialUri": "/w/Troll_Romance",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "28",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "In Search of the Myreque",
+		"uri": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
+		"partialUri": "/w/In_Search_of_the_Myreque",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "25",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Creature of Fenkenstrain",
+		"uri": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
+		"partialUri": "/w/Creature_of_Fenkenstrain",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "25",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Roving Elves",
+		"uri": "https://oldschool.runescape.wiki/w/Roving_Elves",
+		"partialUri": "/w/Roving_Elves",
+		"reqs": []
+	},
+	{
+		"name": "Ghosts Ahoy",
+		"uri": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
+		"partialUri": "/w/Ghosts_Ahoy",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "25",
+				"boostable": true
+			},
+			{
+				"skill": "Cooking",
+				"level": "20",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "One Small Favour",
+		"uri": "https://oldschool.runescape.wiki/w/One_Small_Favour",
+		"partialUri": "/w/One_Small_Favour",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "36",
+				"boostable": true
+			},
+			{
+				"skill": "Crafting",
+				"level": "25",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "18",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "30",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Mountain Daughter",
+		"uri": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
+		"partialUri": "/w/Mountain_Daughter",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "20",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Between a Rock...",
+		"uri": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
+		"partialUri": "/w/Between_a_Rock...",
+		"reqs": [
+			{
+				"skill": "Defence",
+				"level": "30",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "50",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "The Feud",
+		"uri": "https://oldschool.runescape.wiki/w/The_Feud",
+		"partialUri": "/w/The_Feud",
+		"reqs": [
+			{
+				"skill": "Thieving",
+				"level": "30",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Golem",
+		"uri": "https://oldschool.runescape.wiki/w/The_Golem",
+		"partialUri": "/w/The_Golem",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "25",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Desert Treasure",
+		"uri": "https://oldschool.runescape.wiki/w/Desert_Treasure",
+		"partialUri": "/w/Desert_Treasure",
+		"reqs": [
+			{
+				"skill": "Firemaking",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "10",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "53",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Icthlarin's Little Helper",
+		"uri": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
+		"partialUri": "/w/Icthlarin%27s_Little_Helper",
+		"reqs": []
+	},
+	{
+		"name": "Tears of Guthix",
+		"uri": "https://oldschool.runescape.wiki/w/Tears_of_Guthix",
+		"partialUri": "/w/Tears_of_Guthix",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "49",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Lost Tribe",
+		"uri": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
+		"partialUri": "/w/The_Lost_Tribe",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "13",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "17",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "13",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "The Giant Dwarf",
+		"uri": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
+		"partialUri": "/w/The_Giant_Dwarf",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "12",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "16",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "33",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "14",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Recruitment Drive",
+		"uri": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
+		"partialUri": "/w/Recruitment_Drive",
+		"reqs": []
+	},
+	{
+		"name": "Mourning's End Part I",
+		"uri": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_I",
+		"partialUri": "/w/Mourning%27s_End_Part_I",
+		"reqs": [
+			{
+				"skill": "Ranged",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "50",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Forgettable Tale...",
+		"uri": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
+		"partialUri": "/w/Forgettable_Tale...",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "22",
+				"boostable": true
+			},
+			{
+				"skill": "Farming",
+				"level": "17",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Garden of Tranquillity",
+		"uri": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
+		"partialUri": "/w/Garden_of_Tranquillity",
+		"reqs": [
+			{
+				"skill": "Farming",
+				"level": "25",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Tail of Two Cats",
+		"uri": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
+		"partialUri": "/w/A_Tail_of_Two_Cats",
+		"reqs": []
+	},
+	{
+		"name": "Wanted!",
+		"uri": "https://oldschool.runescape.wiki/w/Wanted!",
+		"partialUri": "/w/Wanted!",
+		"reqs": []
+	},
+	{
+		"name": "Mourning's End Part II",
+		"uri": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II",
+		"partialUri": "/w/Mourning%27s_End_Part_II",
+		"reqs": []
+	},
+	{
+		"name": "Rum Deal",
+		"uri": "https://oldschool.runescape.wiki/w/Rum_Deal",
+		"partialUri": "/w/Rum_Deal",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "42",
+				"boostable": true
+			},
+			{
+				"skill": "Farming",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Fishing",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Prayer",
+				"level": "47",
+				"boostable": true
+			},
+			{
+				"skill": "Slayer",
+				"level": "42",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Shadow of the Storm",
+		"uri": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
+		"partialUri": "/w/Shadow_of_the_Storm",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "30",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Making History",
+		"uri": "https://oldschool.runescape.wiki/w/Making_History",
+		"partialUri": "/w/Making_History",
+		"reqs": []
+	},
+	{
+		"name": "Ratcatchers",
+		"uri": "https://oldschool.runescape.wiki/w/Ratcatchers",
+		"partialUri": "/w/Ratcatchers",
+		"reqs": []
+	},
+	{
+		"name": "Spirits of the Elid",
+		"uri": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
+		"partialUri": "/w/Spirits_of_the_Elid",
+		"reqs": [
+			{
+				"skill": "Magic",
+				"level": "33",
+				"boostable": true
+			},
+			{
+				"skill": "Mining",
+				"level": "37",
+				"boostable": true
+			},
+			{
+				"skill": "Ranged",
+				"level": "37",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "37",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Devious Minds",
+		"uri": "https://oldschool.runescape.wiki/w/Devious_Minds",
+		"partialUri": "/w/Devious_Minds",
+		"reqs": [
+			{
+				"skill": "Fletching",
+				"level": "50",
+				"boostable": true
+			},
+			{
+				"skill": "Runecraft",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "65",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "The Hand in the Sand",
+		"uri": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
+		"partialUri": "/w/The_Hand_in_the_Sand",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "49",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "17",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Enakhra's Lament",
+		"uri": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
+		"partialUri": "/w/Enakhra%27s_Lament",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "45",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "39",
+				"boostable": false
+			},
+			{
+				"skill": "Prayer",
+				"level": "43",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Cabin Fever",
+		"uri": "https://oldschool.runescape.wiki/w/Cabin_Fever",
+		"partialUri": "/w/Cabin_Fever",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "42",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "45",
+				"boostable": false
+			},
+			{
+				"skill": "Ranged",
+				"level": "40",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "50",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Fairytale I - Growing Pains",
+		"uri": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
+		"partialUri": "/w/Fairytale_I_-_Growing_Pains",
+		"reqs": []
+	},
+	{
+		"name": "Recipe for Disaster",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
+		"partialUri": "/w/Recipe_for_Disaster",
+		"reqs": []
+	},
+	{
+		"name": "In Aid of the Myreque",
+		"uri": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
+		"partialUri": "/w/In_Aid_of_the_Myreque",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "25",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "7",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "15",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Soul's Bane",
+		"uri": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
+		"partialUri": "/w/A_Soul%27s_Bane",
+		"reqs": []
+	},
+	{
+		"name": "Rag and Bone Man I",
+		"uri": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I",
+		"partialUri": "/w/Rag_and_Bone_Man_I",
+		"reqs": []
+	},
+	{
+		"name": "Swan Song",
+		"uri": "https://oldschool.runescape.wiki/w/Swan_Song",
+		"partialUri": "/w/Swan_Song",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "62",
+				"boostable": true
+			},
+			{
+				"skill": "Crafting",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Firemaking",
+				"level": "42",
+				"boostable": false
+			},
+			{
+				"skill": "Fishing",
+				"level": "62",
+				"boostable": true
+			},
+			{
+				"skill": "Magic",
+				"level": "66",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "45",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Royal Trouble",
+		"uri": "https://oldschool.runescape.wiki/w/Royal_Trouble",
+		"partialUri": "/w/Royal_Trouble",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Slayer",
+				"level": "40",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Death to the Dorgeshuun",
+		"uri": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
+		"partialUri": "/w/Death_to_the_Dorgeshuun",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "23",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "23",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Fairytale II - Cure a Queen",
+		"uri": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
+		"partialUri": "/w/Fairytale_II_-_Cure_a_Queen",
+		"reqs": [
+			{
+				"skill": "Farming",
+				"level": "49",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "57",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "40",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Lunar Diplomacy",
+		"uri": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
+		"partialUri": "/w/Lunar_Diplomacy",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "61",
+				"boostable": false
+			},
+			{
+				"skill": "Defence",
+				"level": "40",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "49",
+				"boostable": false
+			},
+			{
+				"skill": "Herblore",
+				"level": "5",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "65",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "55",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Eyes of Glouphrie",
+		"uri": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
+		"partialUri": "/w/The_Eyes_of_Glouphrie",
+		"reqs": [
+			{
+				"skill": "Construction",
+				"level": "5",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "46",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Darkness of Hallowvale",
+		"uri": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
+		"partialUri": "/w/Darkness_of_Hallowvale",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "26",
+				"boostable": true
+			},
+			{
+				"skill": "Construction",
+				"level": "5",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "32",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "33",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Strength",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "22",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Slug Menace",
+		"uri": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
+		"partialUri": "/w/The_Slug_Menace",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Runecraft",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "30",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Elemental Workshop II",
+		"uri": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
+		"partialUri": "/w/Elemental_Workshop_II",
+		"reqs": [
+			{
+				"skill": "Magic",
+				"level": "20",
+				"boostable": true
+			},
+			{
+				"skill": "Smithing",
+				"level": "30",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "My Arm's Big Adventure",
+		"uri": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
+		"partialUri": "/w/My_Arm%27s_Big_Adventure",
+		"reqs": [
+			{
+				"skill": "Farming",
+				"level": "29",
+				"boostable": true
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Enlightened Journey",
+		"uri": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
+		"partialUri": "/w/Enlightened_Journey",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "36",
+				"boostable": false
+			},
+			{
+				"skill": "Farming",
+				"level": "30",
+				"boostable": true
+			},
+			{
+				"skill": "Firemaking",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Eagles' Peak",
+		"uri": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
+		"partialUri": "/w/Eagles%27_Peak",
+		"reqs": [
+			{
+				"skill": "Hunter",
+				"level": "27",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Animal Magnetism",
+		"uri": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
+		"partialUri": "/w/Animal_Magnetism",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "19",
+				"boostable": false
+			},
+			{
+				"skill": "Ranged",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "18",
+				"boostable": false
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "35",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Contact!",
+		"uri": "https://oldschool.runescape.wiki/w/Contact!",
+		"partialUri": "/w/Contact!",
+		"reqs": []
+	},
+	{
+		"name": "Cold War",
+		"uri": "https://oldschool.runescape.wiki/w/Cold_War",
+		"partialUri": "/w/Cold_War",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Construction",
+				"level": "34",
+				"boostable": true
+			},
+			{
+				"skill": "Crafting",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Hunter",
+				"level": "10",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "15",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Fremennik Isles",
+		"uri": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
+		"partialUri": "/w/The_Fremennik_Isles",
+		"reqs": [
+			{
+				"skill": "Construction",
+				"level": "20",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "The Great Brain Robbery",
+		"uri": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
+		"partialUri": "/w/The_Great_Brain_Robbery",
+		"reqs": [
+			{
+				"skill": "Construction",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "16",
+				"boostable": false
+			},
+			{
+				"skill": "Prayer",
+				"level": "50",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "What Lies Below",
+		"uri": "https://oldschool.runescape.wiki/w/What_Lies_Below",
+		"partialUri": "/w/What_Lies_Below",
+		"reqs": [
+			{
+				"skill": "Runecraft",
+				"level": "35",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Olaf's Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
+		"partialUri": "/w/Olaf%27s_Quest",
+		"reqs": [
+			{
+				"skill": "Firemaking",
+				"level": "40",
+				"boostable": true
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "50",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Another Slice of H.A.M.",
+		"uri": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
+		"partialUri": "/w/Another_Slice_of_H.A.M.",
+		"reqs": [
+			{
+				"skill": "Attack",
+				"level": "15",
+				"boostable": false
+			},
+			{
+				"skill": "Prayer",
+				"level": "25",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Dream Mentor",
+		"uri": "https://oldschool.runescape.wiki/w/Dream_Mentor",
+		"partialUri": "/w/Dream_Mentor",
+		"reqs": []
+	},
+	{
+		"name": "Grim Tales",
+		"uri": "https://oldschool.runescape.wiki/w/Grim_Tales",
+		"partialUri": "/w/Grim_Tales",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "59",
+				"boostable": true
+			},
+			{
+				"skill": "Farming",
+				"level": "45",
+				"boostable": true
+			},
+			{
+				"skill": "Herblore",
+				"level": "52",
+				"boostable": true
+			},
+			{
+				"skill": "Thieving",
+				"level": "58",
+				"boostable": true
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "71",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "King's Ransom",
+		"uri": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
+		"partialUri": "/w/King%27s_Ransom",
+		"reqs": [
+			{
+				"skill": "Defence",
+				"level": "65",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "45",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Shilo Village",
+		"uri": "https://oldschool.runescape.wiki/w/Shilo_Village",
+		"partialUri": "/w/Shilo_Village",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "32",
+				"boostable": true
+			},
+			{
+				"skill": "Crafting",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Biohazard",
+		"uri": "https://oldschool.runescape.wiki/w/Biohazard",
+		"partialUri": "/w/Biohazard",
+		"reqs": []
+	},
+	{
+		"name": "Tower of Life",
+		"uri": "https://oldschool.runescape.wiki/w/Tower_of_Life",
+		"partialUri": "/w/Tower_of_Life",
+		"reqs": [
+			{
+				"skill": "Construction",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Rag and Bone Man II",
+		"uri": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
+		"partialUri": "/w/Rag_and_Bone_Man_II",
+		"reqs": [
+			{
+				"skill": "Defence",
+				"level": "20",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "40",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Land of the Goblins",
+		"uri": "https://oldschool.runescape.wiki/w/Land_of_the_Goblins",
+		"partialUri": "/w/Land_of_the_Goblins",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "38",
+				"boostable": false
+			},
+			{
+				"skill": "Fishing",
+				"level": "40",
+				"boostable": false
+			},
+			{
+				"skill": "Herblore",
+				"level": "48",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "45",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Zogre Flesh Eaters",
+		"uri": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
+		"partialUri": "/w/Zogre_Flesh_Eaters",
+		"reqs": [
+			{
+				"skill": "Herblore",
+				"level": "8",
+				"boostable": false
+			},
+			{
+				"skill": "Ranged",
+				"level": "30",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "4",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Monkey Madness II",
+		"uri": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
+		"partialUri": "/w/Monkey_Madness_II",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "55",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Hunter",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "69",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "55",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Client of Kourend",
+		"uri": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
+		"partialUri": "/w/Client_of_Kourend",
+		"reqs": []
+	},
+	{
+		"name": "The Queen of Thieves",
+		"uri": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
+		"partialUri": "/w/The_Queen_of_Thieves",
+		"reqs": []
+	},
+	{
+		"name": "Bone Voyage",
+		"uri": "https://oldschool.runescape.wiki/w/Bone_Voyage",
+		"partialUri": "/w/Bone_Voyage",
+		"reqs": []
+	},
+	{
+		"name": "Dragon Slayer II",
+		"uri": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
+		"partialUri": "/w/Dragon_Slayer_II",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Construction",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "62",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "75",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "68",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "60",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Depths of Despair",
+		"uri": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
+		"partialUri": "/w/The_Depths_of_Despair",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "18",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Another Cook's Quest",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Another_Cook%27s_Quest",
+		"partialUri": "/w/Recipe_for_Disaster/Another_Cook%27s_Quest",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Freeing the Goblin generals",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Goblin_generals",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_the_Goblin_generals",
+		"reqs": []
+	},
+	{
+		"name": "Recipe for Disaster/Freeing the Mountain Dwarf",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+		"reqs": []
+	},
+	{
+		"name": "Recipe for Disaster/Freeing Evil Dave",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Evil_Dave",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_Evil_Dave",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "25",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Freeing Pirate Pete",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "31",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Freeing the Lumbridge Guide",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "40",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Freeing Sir Amik Varze",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+		"reqs": []
+	},
+	{
+		"name": "Recipe for Disaster/Freeing King Awowogei",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_King_Awowogei",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_King_Awowogei",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "48",
+				"boostable": false
+			},
+			{
+				"skill": "Cooking",
+				"level": "70",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Freeing Skrach Uglogwee",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+		"partialUri": "/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+		"reqs": [
+			{
+				"skill": "Cooking",
+				"level": "41",
+				"boostable": true
+			},
+			{
+				"skill": "Firemaking",
+				"level": "20",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Taste of Hope",
+		"uri": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
+		"partialUri": "/w/A_Taste_of_Hope",
+		"reqs": [
+			{
+				"skill": "Attack",
+				"level": "40",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "48",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "38",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Tale of the Righteous",
+		"uri": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
+		"partialUri": "/w/Tale_of_the_Righteous",
+		"reqs": [
+			{
+				"skill": "Mining",
+				"level": "10",
+				"boostable": false
+			},
+			{
+				"skill": "Strength",
+				"level": "16",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Making Friends with My Arm",
+		"uri": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
+		"partialUri": "/w/Making_Friends_with_My_Arm",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "68",
+				"boostable": true
+			},
+			{
+				"skill": "Construction",
+				"level": "35",
+				"boostable": true
+			},
+			{
+				"skill": "Firemaking",
+				"level": "66",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "72",
+				"boostable": true
+			}
+		]
+	},
+	{
+		"name": "Recipe for Disaster/Defeating the Culinaromancer",
+		"uri": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Defeating_the_Culinaromancer",
+		"partialUri": "/w/Recipe_for_Disaster/Defeating_the_Culinaromancer",
+		"reqs": []
+	},
+	{
+		"name": "Song of the Elves",
+		"uri": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
+		"partialUri": "/w/Song_of_the_Elves",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Construction",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Farming",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Herblore",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Hunter",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "70",
+				"boostable": false
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "70",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Ascent of Arceuus",
+		"uri": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
+		"partialUri": "/w/The_Ascent_of_Arceuus",
+		"reqs": [
+			{
+				"skill": "Hunter",
+				"level": "12",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "The Forsaken Tower",
+		"uri": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
+		"partialUri": "/w/The_Forsaken_Tower",
+		"reqs": []
+	},
+	{
+		"name": "The Fremennik Exiles",
+		"uri": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
+		"partialUri": "/w/The_Fremennik_Exiles",
+		"reqs": [
+			{
+				"skill": "Crafting",
+				"level": "65",
+				"boostable": false
+			},
+			{
+				"skill": "Fishing",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Runecraft",
+				"level": "55",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Smithing",
+				"level": "60",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Sins of the Father",
+		"uri": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
+		"partialUri": "/w/Sins_of_the_Father",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "52",
+				"boostable": false
+			},
+			{
+				"skill": "Attack",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "56",
+				"boostable": false
+			},
+			{
+				"skill": "Fletching",
+				"level": "60",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "49",
+				"boostable": false
+			},
+			{
+				"skill": "Slayer",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "62",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Kingdom Divided",
+		"uri": "https://oldschool.runescape.wiki/w/A_Kingdom_Divided",
+		"partialUri": "/w/A_Kingdom_Divided",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "54",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "38",
+				"boostable": false
+			},
+			{
+				"skill": "Herblore",
+				"level": "50",
+				"boostable": false
+			},
+			{
+				"skill": "Magic",
+				"level": "35",
+				"boostable": false
+			},
+			{
+				"skill": "Mining",
+				"level": "42",
+				"boostable": false
+			},
+			{
+				"skill": "Thieving",
+				"level": "52",
+				"boostable": false
+			},
+			{
+				"skill": "Woodcutting",
+				"level": "52",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Porcine of Interest",
+		"uri": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
+		"partialUri": "/w/A_Porcine_of_Interest",
+		"reqs": []
+	},
+	{
+		"name": "Getting Ahead",
+		"uri": "https://oldschool.runescape.wiki/w/Getting_Ahead",
+		"partialUri": "/w/Getting_Ahead",
+		"reqs": [
+			{
+				"skill": "Construction",
+				"level": "26",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "A Night at the Theatre",
+		"uri": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre",
+		"partialUri": "/w/A_Night_at_the_Theatre",
+		"reqs": []
+	},
+	{
+		"name": "Beneath Cursed Sands",
+		"uri": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands",
+		"partialUri": "/w/Beneath_Cursed_Sands",
+		"reqs": [
+			{
+				"skill": "Agility",
+				"level": "62",
+				"boostable": false
+			},
+			{
+				"skill": "Crafting",
+				"level": "55",
+				"boostable": false
+			},
+			{
+				"skill": "Firemaking",
+				"level": "55",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Temple of the Eye",
+		"uri": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye",
+		"partialUri": "/w/Temple_of_the_Eye",
+		"reqs": [
+			{
+				"skill": "Runecraft",
+				"level": "10",
+				"boostable": false
+			}
+		]
+	},
+	{
+		"name": "Sleeping Giants",
+		"uri": "https://oldschool.runescape.wiki/w/Sleeping_Giants",
+		"partialUri": "/w/Sleeping_Giants",
+		"reqs": []
+	}
+]

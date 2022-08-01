@@ -1,34 +1,10 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const express = require('express');
 const fs = require('fs')
 
-const app = express();
-const PORT = 8000;
+class Quest{ name; uri; partialUri; reqs = [];}
+class QuestReq{skill; level; boostable; partialUri;}
 
-class Quest{
-    name;
-    uri;
-    partialUri;
-
-    reqs = [];
-}
-
-class QuestReq{
-    skill;
-    level;
-    boostable;
-
-    partialUri;
-}
-
-function writeToFileAsJSON(data, filename){
-    fs.writeFile (filename, JSON.stringify(data), function(err) {
-        if (err) throw err;
-        console.log('complete');
-        }
-    );
-}
 
 function omitKeys(obj, keys)
 {
@@ -79,7 +55,7 @@ try {
 
                         skillNames.forEach((skillName) => {
 
-                            $(`#${skillName}`, html)
+                            $(`#${skillName}`, html) // find the title
                                 .parent()
                                 .next("div")
                                 .find("ul")
@@ -103,13 +79,14 @@ try {
                                     const questIndex = questList.findIndex(quest => quest.partialUri === questReq.partialUri);
                                     if (questIndex === -1) console.warn("Warning: couldnt find a quest for requirement");
                                     else questList[questIndex].reqs.push(omitKeys(questReq, ['partialUri']));
-                                    
                             })
                         })
-                        //console.log(questList);
-                        writeToFileAsJSON(questList, "quests.json");
 
+                        fs.writeFile ("quests.json", JSON.stringify(questList, null, '\t'), function(err) {
+                            if (err) throw err;
+                            console.log('complete');
+                            }
+                        );
                     })
-            
         })
-} catch(err){/*console.log("Error caught: ", err)*/}
+} catch(err){}
