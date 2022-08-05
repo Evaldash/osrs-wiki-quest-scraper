@@ -10,7 +10,7 @@
     "jest": "^28.1.3"
   },
   "scripts": {
-    "generate": "node index.js",
+    "generate": "node ./src/index.js",
     "test": "jest"
   }
 }

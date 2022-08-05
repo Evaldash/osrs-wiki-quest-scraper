@@ -1,8 +1,37 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-class Quest{ name; uri; partialUri; reqs = [];}
-class QuestReq{skill; level; boostable; partialUri;}
+const {Quest, QuestReq, QuestReward} = require('./classes.js');
+
+/*
+{
+    "miniquest": false,
+    "name": "A Soul's Bane",
+    "shortName": "aSoulsBane",
+    "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
+    "members": true,
+    "difficulty": "Novice",
+    "subquests": [],
+    "questLength": "Medium",
+    "requirements": {
+        "quests": [],
+        "skills": []
+    },
+    "rewards": {
+        "exp": [{
+                "skill": "defence",
+                "amount": 500
+            },
+            {
+                "skill": "hitpoints",
+                "amount": 500
+            }
+        ],
+        "questPoints": 1
+    },
+    "series": null
+},
+*/
 
 
 function omitKeys(obj, keys){
@@ -39,8 +68,7 @@ const getQuests = new Promise(function (resolve, reject){
                             if (questName != ''){
                                 const quest = new Quest();
                                 quest.name = questName;
-                                quest.partialUri = questLink;
-                                quest.uri = `https://oldschool.runescape.wiki${questLink}`;
+                                quest.url = `https://oldschool.runescape.wiki${questLink}`;
 
                                 questList.push(quest);
                             }
@@ -67,18 +95,23 @@ const getQuests = new Promise(function (resolve, reject){
                                         questReq.skill = skillName;
                                         questReq.boostable = htmlLine.includes("*");
                                         questReq.level = htmlLine.substring(0, htmlLine.indexOf(' '));
+
+                                        let partialUrl = '';
+                                        const questLink = $(this).find("a").attr("href");
                                         
-                                        switch ($(this).find("a").attr("href")){
-                                            case '/w/Forgettable_Tale_of_a_Drunken_Dwarf': questReq.partialUri = '/w/Forgettable_Tale...'; break;
-                                            case '/w/Slug_Menace': questReq.partialUri = '/w/The_Slug_Menace'; break;
-                                            case '/w/Tears_of_Guthix_(quest)': questReq.partialUri = '/w/Tears_of_Guthix'; break;
-                                            case '/w/Underground_Pass_(quest)': questReq.partialUri = '/w/Underground_Pass'; break;
-                                            default: questReq.partialUri = $(this).find("a").attr("href"); break;
+                                        switch (questLink){
+                                            case '/w/Forgettable_Tale_of_a_Drunken_Dwarf' : partialUrl = '/w/Forgettable_Tale...';  break;
+                                            case '/w/Slug_Menace':                          partialUrl = '/w/The_Slug_Menace';      break;
+                                            case '/w/Tears_of_Guthix_(quest)':              partialUrl = '/w/Tears_of_Guthix';      break;
+                                            case '/w/Underground_Pass_(quest)':             partialUrl = '/w/Underground_Pass';     break;
+                                            default:                                        partialUrl = questLink;                 break;
                                         }
 
-                                        const questIndex = questList.findIndex(quest => quest.partialUri === questReq.partialUri);
-                                        if (questIndex === -1) console.warn("Warning: couldnt find a quest for requirement");
-                                        else questList[questIndex].reqs.push(omitKeys(questReq, ['partialUri']));
+                                        questReq.url = `https://oldschool.runescape.wiki${partialUrl}`;
+
+                                        const questIndex = questList.findIndex(quest => quest.url === questReq.url);
+                                        if (questIndex === -1) console.warn(`Warning: couldnt find a quest for requirement with link: ${questReq.url}`);
+                                        else questList[questIndex].requirements.push(omitKeys(questReq, ['url']));
                                 })
                             })
 
@@ -86,6 +119,11 @@ const getQuests = new Promise(function (resolve, reject){
                         })
             })
     } catch(err){}
+})
+
+
+const readQuestFile = new Promise(function (resolve, reject){
+
 })
 
 module.exports = getQuests;
