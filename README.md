@@ -1,4 +1,7 @@
-NodeJS script to scrape the Runescape wiki and get all current quests, along with their requirements.
+NodeJS script to scrape the Runescape wiki and get all current quests, along with their requirements from these two pages:
+<code> https://oldschool.runescape.wiki/w/Quests/List </code>
+
+<code> https://oldschool.runescape.wiki/w/Quests/Skill_requirements </code>
 
 NodeJS and yarn/npm required.
 
