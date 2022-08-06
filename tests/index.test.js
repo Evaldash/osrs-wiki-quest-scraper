@@ -1,4 +1,4 @@
-const getQuests = require('../src/functions');
+const {getQuests, addQuestSkills} = require('../src/functions');
 
 let sampleQuestJson = `
 {
@@ -22,8 +22,9 @@ let sampleQuestJson = `
 
 const sampleQuest = JSON.parse(sampleQuestJson);
 
-test('Checks if Lost City quest is parsed properly', () => {
-    return getQuests.then(quests => {
-        expect(quests).toContainEqual(sampleQuest);
-    })
+test('Checks if Lost City quest is parsed properly', async () => {
+		const quests = await getQuests;
+		const questsWithSkills = await addQuestSkills(quests);
+
+		expect(questsWithSkills).toContainEqual(sampleQuest);
 })
