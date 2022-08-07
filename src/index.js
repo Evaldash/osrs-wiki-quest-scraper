@@ -27,7 +27,7 @@ const mockQuest = {
 
 
 const main = async () => {
-    const quests = await getQuests;
+    const quests = await getQuests();
     const questsWithSkills = await addQuestSkills(quests);
 
     fs.writeFile ("./output/quests.json", JSON.stringify(questsWithSkills, null, '\t'), function(err) {

@@ -23,7 +23,7 @@ function omitKeys(obj, keys){
 }
 
 
-const getQuests = new Promise(function (resolve, reject){
+const getQuests = () => new Promise(function (resolve, reject){
     const questListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
     const questList = [];
 
