@@ -11,36 +11,6 @@ const skillNames = [
     'Hitpoints', 'Hunter', 'Magic', 'Mining', 'Prayer', 'Ranged', 'Runecraft', 'Slayer', 'Smithing', 'Strength', 'Thieving', 'Woodcutting'
 ]
 
-/*
-{
-    "miniquest": false,
-    "name": "A Soul's Bane",
-    "shortName": "aSoulsBane",
-    "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-    "members": true,
-    "difficulty": "Novice",
-    "subquests": [],
-    "questLength": "Medium",
-    "requirements": {
-        "quests": [],
-        "skills": []
-    },
-    "rewards": {
-        "exp": [{
-                "skill": "defence",
-                "amount": 500
-            },
-            {
-                "skill": "hitpoints",
-                "amount": 500
-            }
-        ],
-        "questPoints": 1
-    },
-    "series": null
-},
-*/
-
 
 function omitKeys(obj, keys){
     var dup = {};
@@ -129,6 +99,44 @@ const addQuestSkills = (questList) => new Promise(function (resolve, reject){
     })
 })
 
+const extractQuestInfo = (quest) => new Promise(function (resolve, reject){
+    const questURL = quest.url;
+
+    axios(questURL) // get the quest info
+        .then(response => {
+            const html = response.data;
+            const $ = cheerio.load(html);
+
+            $(".questdetails", html)
+                .find("tbody")
+                .find("tr")
+                .each(function(){
+                    const detailType = $(this).find("th").html();
+                    const detailsHtml = $(this).find(".questdetails-info").html();
+
+                    switch (detailType){
+                        case 'Official difficulty': quest.difficulty = detailsHtml; break;
+                        case 'Description': quest.description = detailsHtml;        break;
+                        case 'Official length': quest.questLength = detailsHtml;    break;
+                        case 'Requirements': /* TODO */ {};                         break;
+                        case 'Items required': /* TODO */ {};                       break;
+                        case 'Recommended': /* TODO */ {};                          break;
+                        case 'Enemies to defeat': /* TODO */ {};                    break;
+                        
+                        case 'Ironman concerns':case 'Start point':  {};            break; // ignore, not needed
+                        
+                        default: {console.warn(`Warning: Unknown quest detail type: ${detailType}`)}
+                    }
+                })
+
+                console.log(quest);
+
+               // console.log(html);5
+
+                resolve(true);
+        })
+})
+
 
 const readQuestFile = new Promise(function (resolve, reject){
     try{
@@ -141,4 +149,4 @@ const readQuestFile = new Promise(function (resolve, reject){
     }
 })
 
-module.exports = {getQuests, readQuestFile, addQuestSkills};
+module.exports = {getQuests, readQuestFile, addQuestSkills, extractQuestInfo};
