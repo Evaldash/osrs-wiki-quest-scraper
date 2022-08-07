@@ -13,3 +13,5 @@ To run:
 To test, run <code> yarn test </code>
 
 Assuming all went well (and the oswiki layout didn't change...), quest list with requirements should be available in the <code> quests.json </code> file.
+
+TODO: determine which quests need to be scraped and get their additional (items, etc.) requirements from the individual quest pages, as to not accidentally "DDOS" the wiki by scraping ~150 quest pages every time.
