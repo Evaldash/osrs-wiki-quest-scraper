@@ -1,39 +1,38 @@
+import { Quest } from './types';
 import {getQuests, addQuestSkills, readQuestFile, extractQuestInfo} from './functions';
 import * as fs from 'fs';
 import * as chalk from 'chalk';
 
 
-const mockQuest = {
-        miniquest: false,
-        members: false,
-        
-        name: 'Dragon Slayer I',
-        url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_I',
+const mockQuest: Quest = {
+    miniquest: false,
+    members: false,
 
-        requirements: [],
-        
-        difficulty: undefined,
-        subquests: undefined,
-        questLength: undefined,
-        
-        series: undefined,
-        rewards: [],
-        description: undefined,
-        shortName: undefined,
-    
-        itemsRequired: undefined,
-        itemsRecommended: undefined,
-        enemiesToDefeat: undefined
-    }
+    name: 'Dragon Slayer I',
+    url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_I',
+    shortName: '',
+    difficulty: '',
+    subquests: [],
+    questLength: '',
+    requirements: [],
+    series: '',
+    rewards: [],
+    description: '',
+    itemsRequired: [],
+    itemsRecommended: [],
+    enemiesToDefeat: []
+}
 
 
 
 const main = async () => {
     const quests = await getQuests();
-    const questsWithSkills = await addQuestSkills(quests);
+    
+    
+    //const questsWithSkills = await addQuestSkills(quests);
 
-    fs.writeFile ("./output/quests.json", JSON.stringify(questsWithSkills, null, '\t'), function(err) {
-        if (err) throw err;
+    fs.writeFile ("./output/quests.json", JSON.stringify(quests, null, '\t'), function(err) {
+       if (err) throw err;
         console.log(chalk.green('Complete, result saved to output/quests.json'));
         }
     ); 

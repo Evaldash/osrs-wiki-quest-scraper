@@ -21,6 +21,18 @@ function omitKeys(obj: any, keys: string[]) {
     return dup;
 }
 
+function toPascalCase(string: string) {
+    return `${string}`
+      .toLowerCase()
+      .replace(new RegExp(/[-_]+/, 'g'), ' ')
+      .replace(new RegExp(/[^\w\s]/, 'g'), '')
+      .replace(
+        new RegExp(/\s+(.)(\w*)/, 'g'),
+        ($1, $2, $3) => `${$2.toUpperCase() + $3}`
+      )
+      .replace(new RegExp(/\w/), s => s.toUpperCase());
+  }
+
 
 const getQuests = () => new Promise<Quest[]>(function (resolve, reject){
     const questListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
@@ -29,30 +41,49 @@ const getQuests = () => new Promise<Quest[]>(function (resolve, reject){
     try {
         axios(questListURL) // get all quests
             .then(response => {
-                const html = response.data;
-                const $ = load(html);
+                const html = response.data.replace(/(\r\n|\n|\r)/gm, "");
+                let $ = load(html);
 
-                $(".wikitable", html).each(function() {  
-                        $(this).find("tbody").find("tr").each(function() {
-                            const questName = $(this).find("td:nth-child(2)").find("a").text();
-                            const questLink = $(this).find("td:nth-child(2)").find("a").attr("href");
-                            if (questName != ''){
-                                const quest = {} as Quest;
-                                quest.name = questName;
-                                quest.url = `https://oldschool.runescape.wiki${questLink}`;
+                $(".wikitable", html).each(function() {
+                    let nameColumnIndex = -1;
 
-                                questList.push(quest);
+                    $(this) // find name column number
+                        .find("tbody")
+                        .find("tr")
+                        .first()
+                        .find("th")
+                        .each((i, el) => {
+                            if ($(el).text() === 'Name') {
+                                nameColumnIndex = i;
+                                return false;
                             }
                         })
-                    
-                })
 
+                        if (nameColumnIndex === -1) return; // not a quest table
+                        
+                        $(this)
+                            .find("tbody")
+                            .find("tr")
+                            .each(function() {
+                                const questName = $(this).find(`td:nth-child(${nameColumnIndex+1})`).find("a").text();
+                                const questLink = $(this).find(`td:nth-child(${nameColumnIndex+1})`).find("a").attr("href");
+                                if (questName != ''){
+                                    const quest = {} as Quest;
+                                    quest.name = questName;
+                                    quest.shortName = toPascalCase(questName);
+                                    quest.url = `https://oldschool.runescape.wiki${questLink}`;
+
+                                    questList.push(quest);
+                                }
+                            })
+                        
+                })
                 resolve(questList);
             })
     } catch(err){}
 })
 
-const addQuestSkills = (questList: Quest[]) => new Promise(function (resolve, reject){
+const addQuestSkills = (questList: Quest[]) => new Promise<Quest[]>(function (resolve, reject){
     const questReqURL = 'https://oldschool.runescape.wiki/w/Quests/Skill_requirements';
 
     axios(questReqURL) // get the quest requirements
@@ -101,7 +132,7 @@ const addQuestSkills = (questList: Quest[]) => new Promise(function (resolve, re
     })
 })
 
-const extractQuestInfo = (quest: Quest) => new Promise(function (resolve, reject){
+const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
     const questURL = quest.url;
 
     axios(questURL) // get the quest info
@@ -135,7 +166,7 @@ const extractQuestInfo = (quest: Quest) => new Promise(function (resolve, reject
 
                // console.log(html);5
 
-                resolve(true);
+                resolve(quest);
         })
 })
 
