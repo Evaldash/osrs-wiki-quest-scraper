@@ -1,4 +1,4 @@
-const {getQuests, addQuestSkills} = require('../src/functions');
+import {getQuests, addQuestSkills} from '../src/functions';
 
 let sampleQuestJson = `
 {
@@ -7,23 +7,22 @@ let sampleQuestJson = `
 	"requirements": [
 		{
 			"skill": "Crafting",
-			"level": "31",
-			"boostable": true
+			"boostable": true,
+			"level": "31"
 		},
 		{
 			"skill": "Woodcutting",
-			"level": "36",
-			"boostable": true
+			"boostable": true,
+			"level": "36"
 		}
-	],
-	"rewards": []
+	]
 }
 `;
 
 const sampleQuest = JSON.parse(sampleQuestJson);
 
 test('Checks if Lost City quest is parsed properly', async () => {
-		const quests = await getQuests;
+		const quests = await getQuests();
 		const questsWithSkills = await addQuestSkills(quests);
 
 		expect(questsWithSkills).toContainEqual(sampleQuest);

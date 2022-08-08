@@ -1,10 +1,9 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
+import * as  path from 'path';
+import * as fs from 'fs';
+import {load} from 'cheerio';
+import axios from 'axios';
 
-const fs = require('fs');
-const path = require('path');
-
-const {Quest, QuestReq, QuestReward} = require('./classes.js');
+import {Quest, QuestReq, QuestReward} from './types';
 
 const skillNames = [
     'Agility', 'Attack', 'Construction', 'Cooking', 'Crafting', 'Defence', 'Farming', 'Firemaking', 'Fishing', 'Fletching', 'Herblore',
@@ -12,9 +11,9 @@ const skillNames = [
 ]
 
 
-function omitKeys(obj, keys){
-    var dup = {};
-    for (var key in obj) {
+function omitKeys(obj: any, keys: string[]) {
+    var dup = {} as any;
+    for (const key in obj) {
         if (keys.indexOf(key) == -1) {
             dup[key] = obj[key];
         }
@@ -23,22 +22,22 @@ function omitKeys(obj, keys){
 }
 
 
-const getQuests = () => new Promise(function (resolve, reject){
+const getQuests = () => new Promise<Quest[]>(function (resolve, reject){
     const questListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
-    const questList = [];
+    const questList: Quest[] = [];
 
     try {
         axios(questListURL) // get all quests
             .then(response => {
-                let html = response.data;
-                let $ = cheerio.load(html);
+                const html = response.data;
+                const $ = load(html);
 
                 $(".wikitable", html).each(function() {  
                         $(this).find("tbody").find("tr").each(function() {
                             const questName = $(this).find("td:nth-child(2)").find("a").text();
                             const questLink = $(this).find("td:nth-child(2)").find("a").attr("href");
                             if (questName != ''){
-                                const quest = new Quest();
+                                const quest = {} as Quest;
                                 quest.name = questName;
                                 quest.url = `https://oldschool.runescape.wiki${questLink}`;
 
@@ -53,13 +52,13 @@ const getQuests = () => new Promise(function (resolve, reject){
     } catch(err){}
 })
 
-const addQuestSkills = (questList) => new Promise(function (resolve, reject){
+const addQuestSkills = (questList: Quest[]) => new Promise(function (resolve, reject){
     const questReqURL = 'https://oldschool.runescape.wiki/w/Quests/Skill_requirements';
 
     axios(questReqURL) // get the quest requirements
     .then(response => {
-        html = response.data;
-        $ = cheerio.load(html);
+        const html = response.data;
+        const $ = load(html);
 
         skillNames.forEach((skillName) => {
 
@@ -69,15 +68,15 @@ const addQuestSkills = (questList) => new Promise(function (resolve, reject){
                 .find("ul")
                 .find("li")
                 .each(function(){
-                    const htmlLine = $(this).html();
+                    const htmlLine = $(this).html() as any;
 
-                    const questReq = new QuestReq();
+                    const questReq = {} as QuestReq;
                     questReq.skill = skillName;
                     questReq.boostable = htmlLine.includes("*");
                     questReq.level = htmlLine.substring(0, htmlLine.indexOf(' '));
 
                     let partialUrl = '';
-                    const questLink = $(this).find("a").attr("href");
+                    const questLink = $(this).find("a").attr("href") as any;
                     
                     switch (questLink){
                         case '/w/Forgettable_Tale_of_a_Drunken_Dwarf' : partialUrl = '/w/Forgettable_Tale...';  break;
@@ -89,9 +88,12 @@ const addQuestSkills = (questList) => new Promise(function (resolve, reject){
 
                     questReq.url = `https://oldschool.runescape.wiki${partialUrl}`;
 
-                    const questIndex = questList.findIndex(quest => quest.url === questReq.url);
+                    const questIndex = questList.findIndex((quest: Quest) => quest.url === questReq.url);
                     if (questIndex === -1) console.warn(`Warning: couldnt find a quest for requirement with link: ${questReq.url}`);
-                    else questList[questIndex].requirements.push(omitKeys(questReq, ['url']));
+                    else {
+                        if (questList[questIndex].requirements == null) questList[questIndex].requirements = [];
+                        questList[questIndex].requirements.push(omitKeys(questReq, ['url']));
+                    }
             })
         })
 
@@ -99,20 +101,20 @@ const addQuestSkills = (questList) => new Promise(function (resolve, reject){
     })
 })
 
-const extractQuestInfo = (quest) => new Promise(function (resolve, reject){
+const extractQuestInfo = (quest: Quest) => new Promise(function (resolve, reject){
     const questURL = quest.url;
 
     axios(questURL) // get the quest info
         .then(response => {
             const html = response.data;
-            const $ = cheerio.load(html);
+            const $ = load(html);
 
             $(".questdetails", html)
                 .find("tbody")
                 .find("tr")
                 .each(function(){
                     const detailType = $(this).find("th").html();
-                    const detailsHtml = $(this).find(".questdetails-info").html();
+                    const detailsHtml = $(this).find(".questdetails-info").html() as any;
 
                     switch (detailType){
                         case 'Official difficulty': quest.difficulty = detailsHtml; break;
@@ -149,4 +151,4 @@ const readQuestFile = new Promise(function (resolve, reject){
     }
 })
 
-module.exports = {getQuests, readQuestFile, addQuestSkills, extractQuestInfo};
+export {getQuests, readQuestFile, addQuestSkills, extractQuestInfo};

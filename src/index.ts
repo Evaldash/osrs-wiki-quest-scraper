@@ -1,5 +1,7 @@
-const {getQuests, addQuestSkills, readQuestFile, extractQuestInfo} = require('./functions');
-const fs = require('fs')
+import {getQuests, addQuestSkills, readQuestFile, extractQuestInfo} from './functions';
+import * as fs from 'fs';
+import * as chalk from 'chalk';
+
 
 const mockQuest = {
         miniquest: false,
@@ -32,7 +34,7 @@ const main = async () => {
 
     fs.writeFile ("./output/quests.json", JSON.stringify(questsWithSkills, null, '\t'), function(err) {
         if (err) throw err;
-        console.log('complete, output saved to output/quests.json');
+        console.log(chalk.green('Complete, result saved to output/quests.json'));
         }
     ); 
 
