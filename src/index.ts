@@ -9,6 +9,8 @@ import * as fs from 'fs';
 import * as chalk from 'chalk';
 
 
+export const verboseDebugEnabled = false;
+
 
 const main = async () => {
     const wikiQuestList = await getBaseQuestList();
@@ -25,10 +27,10 @@ const main = async () => {
         const missingQuests = findMissingQuests(wikiQuestList, localQuestList);
 
         if(missingQuests.length > 0){
-            console.log(chalk.yellow('----------------------------------------------------'));
-            console.log(chalk.yellow(`${missingQuests.length} quests seem to be missing from quests-TODO.json:`));
-            missingQuests.forEach( (missingQuest: Quest, i) => {console.log(chalk.yellow(`${i+1}. ${missingQuest.name}`))} )
-            console.log(chalk.yellow('----------------------------------------------------'));
+        //    console.log(chalk.yellow('----------------------------------------------------'));
+        //    console.log(chalk.yellow(`${missingQuests.length} quests seem to be missing from quests-TODO.json:`));
+        //    missingQuests.forEach( (missingQuest: Quest, i) => {console.log(chalk.yellow(`${i+1}. ${missingQuest.name}`))} )
+        //    console.log(chalk.yellow('----------------------------------------------------'));
         }
         else console.log(chalk.green('All quests are present, no need to DDOS the wiki'));
     }

@@ -6,6 +6,7 @@ import axios from 'axios';
 import {Quest, QuestReq, QuestReward} from './types';
 import chalk = require('chalk');
 
+import { verboseDebugEnabled } from '.';
 
 export const omitKeys = (obj: any, keys: string[]) => {
     var dup = {} as any;
@@ -70,13 +71,21 @@ export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, re
                             }
                         })
 
-                    if(nameColIndex === -1) return; // not a quest table
+                    if(nameColIndex === -1){
+                        verboseDebug(chalk.yellow("Didn't find a name column, skipping table: ", $(wikitable).text()));
+                        return; // not a quest table
+                    } 
                         
                         // extract info from the tables
                         $(wikitable)
                             .find("tbody")
                             .find("tr")
                             .each(function() {
+                                if ($(this).find("th").length != 0){
+                                    verboseDebug(chalk.yellow("Found a th element, skipping tr with value: ", $(this).find("th").first().text()))
+                                    return;
+                                }
+
                                 const qReleaseOrder = $(this).find("td").eq(questNumberColIndex).text();
                                 const qName = $(this).find("td").eq(nameColIndex).find("a").text();
                                 const qSeries = $(this).find("td").eq(seriesColIndex).find("a").text();
@@ -88,16 +97,18 @@ export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, re
                                     quest.name = qName;
                                     quest.shortName = toPascalCase(qName);
                                     quest.url = `https://oldschool.runescape.wiki${questLink}`;
-                                    quest.releaseOrder = qReleaseOrder;
                                     quest.series = qSeries;
 
                                     if (!(isMembersTable || isMiniquestTable) && !isF2pTable) console.warn(chalk.yellow("Warning: unknown quest table, assuming quest is members"));
-
+                                    
+                                    if (!isMiniquestTable) quest.releaseOrder = qReleaseOrder;
+                                    
                                     quest.members = (isMembersTable || isMiniquestTable) ? true : isF2pTable ? false : true;
                                     quest.miniquest = isMiniquestTable;
 
                                     qList.push(quest);
                                 }
+                                else verboseDebug(chalk.red("No quest found for element ", $(this).html()))
                             })
                   
                 })
@@ -106,6 +117,13 @@ export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, re
             })
     } catch(err){}
 })
+
+
+const verboseDebug = (msg: string) => {
+    if (!verboseDebugEnabled) return
+
+    console.log(msg);
+}
 
 
 const writeCheerioToFile = (html: string) => {
@@ -145,11 +163,6 @@ export const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(functi
                         default: {console.warn(`Warning: Unknown quest detail type: ${detailType}`)}
                     }
                 })
-
-                //console.log(quest);
-
-               // console.log(html);5
-
                 resolve(quest);
         })
 })
