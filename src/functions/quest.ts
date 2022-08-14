@@ -1,12 +1,14 @@
+import { SkillReq } from './../types';
+import { QUEST_REQ_LIST_URL, SKILLS_ARRAY, QUEST_REW_LIST_URL } from './../constants';
 import { QUEST_LIST_TABLE, QUEST_LIST_URL, WIKI_TABLE_TYPES, WIKI_BASE_URL, QUEST_DETAILS_TABLE } from '../constants';
 import * as  path from 'path';
 import * as fs from 'fs';
 import {load} from 'cheerio';
 import axios from 'axios';
 
-import { Quest, QuestReq, QuestReward, ItemReq } from '../types';
+import { Quest, QuestReward, ItemReq } from '../types';
 import * as chalk from  'chalk';
-import { toPascalCase, verboseDebug } from './generic';
+import { omitKeys, toPascalCase, verboseDebug } from './generic';
 
 const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
     const qList: Quest[] = [];
@@ -112,17 +114,17 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
 
 
                     switch (detailType){
-                        case QUEST_DETAILS_TABLE.DIFFICULTY: quest.difficulty = detailsHtml;                             break;
-                        case QUEST_DETAILS_TABLE.DESCRIPTION: quest.description = detailsHtml;                           break;
-                        case QUEST_DETAILS_TABLE.QUEST_LENGTH: quest.questLength = detailsHtml;                          break;
-                        case QUEST_DETAILS_TABLE.REQUIREMENTS: quest.requirements = extractGeneralReq(detailsHtml);      break;
+                        case QUEST_DETAILS_TABLE.DIFFICULTY:     quest.difficulty = detailsHtml;                         break;
+                        case QUEST_DETAILS_TABLE.DESCRIPTION:    quest.description = detailsHtml;                        break;
+                        case QUEST_DETAILS_TABLE.QUEST_LENGTH:   quest.questLength = detailsHtml;                        break;
+                       // case QUEST_DETAILS_TABLE.REQUIREMENTS:   quest.requirements = extractGeneralReq(detailsHtml);    break;
                         case QUEST_DETAILS_TABLE.ITEMS_REQUIRED: quest.itemsRequired = extractItemsReq(detailsHtml);     break;
                         case QUEST_DETAILS_TABLE.RECOMMENDED: /* TODO */ {};                                             break;
                         case QUEST_DETAILS_TABLE.ENEMIES: /* TODO */ {};                                                 break;
                         
-                        case QUEST_DETAILS_TABLE.IRON_CONCERNS:case QUEST_DETAILS_TABLE.START_POINT:  {};                 break; // ignore, not needed
+                        case QUEST_DETAILS_TABLE.IRON_CONCERNS: case QUEST_DETAILS_TABLE.START_POINT:  {};               break; // ignore, not needed
                         
-                        default: {console.warn(`Warning: Unknown quest detail type: ${detailType}`)}
+                        default: {console.warn(chalk.yellow(`Warning: Unknown quest detail type: ${detailType}`))}
                     }
                 })
                 resolve(quest);
@@ -130,7 +132,20 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
 })
 // TODO
 const extractItemsReq = (html: string) => {
-    return [];
+    const $ = load(html);
+    const itemList = [] as ItemReq[];
+
+    $(".lighttable")
+        .find("ul")
+        .find("li")
+        .each(function(){
+            const item = {} as ItemReq;
+            item.name = $(this).text();
+            itemList.push(item);
+        })
+    
+
+    return itemList;
 }
 
 // TODO
@@ -161,4 +176,71 @@ const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
     return(missingQuests);
 }
 
-export {findMissingQuests, readQuestFile, extractQuestInfo, getBaseQuestList}
+const addSkillRequirements = (questList: Quest[]) => new Promise<Quest[]>(function (resolve, reject){
+    axios(QUEST_REQ_LIST_URL) // get the quest requirements
+    .then(response => {
+        const html = response.data;
+        const $ = load(html);
+
+        SKILLS_ARRAY.forEach((skillName) => {
+           let base =  $(`#${skillName}`, html).parent() // find the title
+           if(skillName === 'Combat_level') base = base.next("ul");
+           else base = base.next("div").find("ul"); // combat level doesn't have a div
+           
+            base
+                .find("li")
+                .each(function(){
+                    const htmlLine = $(this).html() as any;
+
+                    const questReq = {} as SkillReq;
+                    questReq.skill = skillName;
+                    questReq.boostable = htmlLine.includes("*");
+                    questReq.level = htmlLine.substring(0, htmlLine.indexOf(' '));
+
+                    let partialUrl = '';
+                    const questLink = $(this).find("a").attr("href") as any;
+                    
+                    switch (questLink){
+                        case '/w/Forgettable_Tale_of_a_Drunken_Dwarf' : partialUrl = '/w/Forgettable_Tale...';  break;
+                        case '/w/Slug_Menace':                          partialUrl = '/w/The_Slug_Menace';      break;
+                        case '/w/Tears_of_Guthix_(quest)':              partialUrl = '/w/Tears_of_Guthix';      break;
+                        case '/w/Underground_Pass_(quest)':             partialUrl = '/w/Underground_Pass';     break;
+                        default:                                        partialUrl = questLink;                 break;
+                    }
+
+                    const questUrl = `https://oldschool.runescape.wiki${partialUrl}`;
+
+                    const questIndex = questList.findIndex((quest: Quest) => quest.url === questUrl);
+                    if (questIndex === -1) console.warn(`Warning: couldnt find a quest for requirement with link: ${questUrl}`);
+                    else {
+                        if (questList[questIndex].skillsRequired == null) questList[questIndex].skillsRequired = [];
+                        questList[questIndex].skillsRequired.push(questReq);
+                    }
+            })
+        })
+
+        resolve(questList);
+    })
+})
+
+// TODO
+const addSkillRewards = (questList: Quest[]) => new Promise<Quest[]>(function (resolve, reject){
+    axios(QUEST_REW_LIST_URL)
+        .then(response => {
+            const html = response.data.replace(/(\r\n|\n|\r)/gm, "");
+            let $ = load(html);
+
+            SKILLS_ARRAY.forEach((skillName) => {
+
+            // to be continued
+
+
+
+            })
+
+
+           resolve(questList); 
+        })
+})
+
+export {findMissingQuests, readQuestFile, extractQuestInfo, getBaseQuestList, addSkillRequirements, addSkillRewards}

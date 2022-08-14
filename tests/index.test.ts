@@ -1,48 +1,25 @@
-import {getBaseQuestList} from '../src/functions/quest';
+import { boneVoyage, aKingdomDivided, dreamMentor } from './testQuests';
+import {addSkillRequirements, getBaseQuestList} from '../src/functions/quest';
 import { Quest } from '../src/types';
-
-let sampleFutureQuest = `
-{
-	"name": "Lost City",
-	"url": "https://oldschool.runescape.wiki/w/Lost_City",
-	"requirements": [
-		{
-			"skill": "Crafting",
-			"boostable": true,
-			"level": "31"
-		},
-		{
-			"skill": "Woodcutting",
-			"boostable": true,
-			"level": "36"
-		}
-	]
-}
-`;
-
-
-let sampleQuestJson = 
-`	{
-	"name": "Bone Voyage",
-	"shortName": "BoneVoyage",
-	"url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
-	"series": "",
-	"releaseOrder": "132",
-	"members": true,
-	"miniquest": false
-}`
 
 
 describe("Main tests", () => {
-	const sampleQuest = JSON.parse(sampleQuestJson);
 	let quests = {} as Quest[];
 
 	beforeAll(async () => {
-		quests = await getBaseQuestList();
+		let baseQuests = await getBaseQuestList();
+		quests = await addSkillRequirements(baseQuests);
 	})
 	
-	test('Bone Voyage quest is parsed properly', () => {
-		expect(quests).toContainEqual(sampleQuest);
+	test('Basic quest (Bone Voyage) is parsed properly', () => {
+		expect(quests).toContainEqual(boneVoyage);
+	})
+
+	test('Quest with a lot of skill requirements (A kingdom Divided) is parsed properly', () => {
+		expect(quests).toContainEqual(aKingdomDivided);
+	})
+	test('Edge quest (Dream Mentor) is parsed properly', () => {
+		expect(quests).toContainEqual(dreamMentor);
 	})
 
 	test('Fetched quest count is at least 180', () => {

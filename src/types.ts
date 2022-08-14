@@ -9,14 +9,17 @@ export type Quest = {
     difficulty: string;
     subquests: string[];
     questLength: string;
-    requirements: string[];
     series: string;
     rewards: string[];
     description: string;
 
-    itemsRequired: string[];
+    itemsRequired: ItemReq[];
     itemsRecommended: string[];
     enemiesToDefeat: string[];
+
+
+   skillsRequired: SkillReq[];
+
 }
 
 
@@ -29,9 +32,6 @@ export type QuestReward = {
 
 
 
-
-
-
 export type SkillReq = {
    skill: string;
    level: number;
@@ -41,18 +41,4 @@ export type SkillReq = {
 export type ItemReq = {
    name: string;
    qty: number;
-}
-
-
-
-
-
-/**
- *  @deprecated, the Type should not be used
- */ 
-export type QuestReq = {
-   url: string;
-   skill: string;
-   level: string;
-   boostable: boolean;
 }

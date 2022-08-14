@@ -96,7 +96,14 @@
 		"series": "",
 		"releaseOrder": "14",
 		"members": false,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Misthalin Mystery",
@@ -213,7 +220,19 @@
 		"series": "",
 		"releaseOrder": "19",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "31"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": true,
+				"level": "36"
+			}
+		]
 	},
 	{
 		"name": "Witch's House",
@@ -240,7 +259,29 @@
 		"series": "",
 		"releaseOrder": "22",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "53"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": true,
+				"level": "53"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "25"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "Scorpion Catcher",
@@ -249,7 +290,14 @@
 		"series": "",
 		"releaseOrder": "23",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Prayer",
+				"boostable": false,
+				"level": "31"
+			}
+		]
 	},
 	{
 		"name": "Family Crest",
@@ -258,7 +306,29 @@
 		"series": "",
 		"releaseOrder": "24",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "59"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "40"
+			}
+		]
 	},
 	{
 		"name": "Fishing Contest",
@@ -267,7 +337,14 @@
 		"series": "",
 		"releaseOrder": "26",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Fishing",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Tribal Totem",
@@ -276,7 +353,14 @@
 		"series": "",
 		"releaseOrder": "25",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "21"
+			}
+		]
 	},
 	{
 		"name": "Monk's Friend",
@@ -294,7 +378,19 @@
 		"series": "Mahjarrat",
 		"releaseOrder": "28",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "40"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "42"
+			}
+		]
 	},
 	{
 		"name": "Clock Tower",
@@ -312,7 +408,14 @@
 		"series": "Camelot",
 		"releaseOrder": "30",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Attack",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Tree Gnome Village",
@@ -366,7 +469,14 @@
 		"series": "Temple Knight",
 		"releaseOrder": "36",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Firemaking",
+				"boostable": true,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "Waterfall Quest",
@@ -384,7 +494,14 @@
 		"series": "",
 		"releaseOrder": "39",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "3"
+			}
+		]
 	},
 	{
 		"name": "The Grand Tree",
@@ -393,7 +510,14 @@
 		"series": "Gnome",
 		"releaseOrder": "40",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Underground Pass",
@@ -402,7 +526,14 @@
 		"series": "Elf",
 		"releaseOrder": "42",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Observatory Quest",
@@ -411,7 +542,14 @@
 		"series": "",
 		"releaseOrder": "43",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "The Tourist Trap",
@@ -420,7 +558,19 @@
 		"series": "",
 		"releaseOrder": "44",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Fletching",
+				"boostable": true,
+				"level": "10"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Watchtower",
@@ -429,7 +579,34 @@
 		"series": "",
 		"releaseOrder": "45",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "25"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "14"
+			},
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "14"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "15"
+			}
+		]
 	},
 	{
 		"name": "Dwarf Cannon",
@@ -456,7 +633,24 @@
 		"series": "Mahjarrat",
 		"releaseOrder": "48",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "10"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "10"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Gertrude's Cat",
@@ -474,7 +668,59 @@
 		"series": "",
 		"releaseOrder": "50",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "45"
+			},
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "56"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "52"
+			},
+			{
+				"skill": "Prayer",
+				"boostable": true,
+				"level": "42"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Strength",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": true,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "Death Plateau",
@@ -492,7 +738,14 @@
 		"series": "Troll",
 		"releaseOrder": "60",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "31"
+			}
+		]
 	},
 	{
 		"name": "Big Chompy Bird Hunting",
@@ -501,7 +754,24 @@
 		"series": "",
 		"releaseOrder": "52",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "30"
+			},
+			{
+				"skill": "Fletching",
+				"boostable": true,
+				"level": "5"
+			},
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "Elemental Workshop I",
@@ -510,7 +780,24 @@
 		"series": "Elemental Workshop",
 		"releaseOrder": "53",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Nature Spirit",
@@ -537,7 +824,14 @@
 		"series": "Elf",
 		"releaseOrder": "59",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "56"
+			}
+		]
 	},
 	{
 		"name": "Tai Bwo Wannai Trio",
@@ -546,7 +840,24 @@
 		"series": "",
 		"releaseOrder": "58",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "15"
+			},
+			{
+				"skill": "Cooking",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": false,
+				"level": "5"
+			}
+		]
 	},
 	{
 		"name": "Troll Stronghold",
@@ -555,7 +866,14 @@
 		"series": "Troll",
 		"releaseOrder": "57",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "15"
+			}
+		]
 	},
 	{
 		"name": "Shades of Mort'ton",
@@ -564,7 +882,24 @@
 		"series": "",
 		"releaseOrder": "61",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "5"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "15"
+			}
+		]
 	},
 	{
 		"name": "The Fremennik Trials",
@@ -582,7 +917,14 @@
 		"series": "",
 		"releaseOrder": "63",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "35"
+			}
+		]
 	},
 	{
 		"name": "Throne of Miscellania",
@@ -609,7 +951,14 @@
 		"series": "",
 		"releaseOrder": "66",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "35"
+			}
+		]
 	},
 	{
 		"name": "Troll Romance",
@@ -618,7 +967,14 @@
 		"series": "",
 		"releaseOrder": "67",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "28"
+			}
+		]
 	},
 	{
 		"name": "In Search of the Myreque",
@@ -627,7 +983,14 @@
 		"series": "Myreque",
 		"releaseOrder": "68",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Creature of Fenkenstrain",
@@ -636,7 +999,19 @@
 		"series": "",
 		"releaseOrder": "69",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "20"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Roving Elves",
@@ -654,7 +1029,19 @@
 		"series": "",
 		"releaseOrder": "71",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "25"
+			},
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "One Small Favour",
@@ -663,7 +1050,29 @@
 		"series": "",
 		"releaseOrder": "72",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "36"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "25"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "18"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "Mountain Daughter",
@@ -672,7 +1081,14 @@
 		"series": "",
 		"releaseOrder": "73",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Between a Rock...",
@@ -681,7 +1097,24 @@
 		"series": "",
 		"releaseOrder": "74",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Defence",
+				"boostable": true,
+				"level": "30"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "The Feud",
@@ -690,7 +1123,14 @@
 		"series": "",
 		"releaseOrder": "75",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "The Golem",
@@ -699,7 +1139,19 @@
 		"series": "",
 		"releaseOrder": "76",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Desert Treasure",
@@ -708,7 +1160,29 @@
 		"series": "Mahjarrat",
 		"releaseOrder": "77",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Firemaking",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "10"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "53"
+			}
+		]
 	},
 	{
 		"name": "Icthlarin's Little Helper",
@@ -726,7 +1200,24 @@
 		"series": "",
 		"releaseOrder": "79",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": true,
+				"level": "49"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "The Lost Tribe",
@@ -735,7 +1226,24 @@
 		"series": "Dorgeshuun",
 		"releaseOrder": "81",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "13"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "17"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "13"
+			}
+		]
 	},
 	{
 		"name": "The Giant Dwarf",
@@ -744,7 +1252,29 @@
 		"series": "Red Axe",
 		"releaseOrder": "82",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "12"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "16"
+			},
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "33"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "14"
+			}
+		]
 	},
 	{
 		"name": "Recruitment Drive",
@@ -762,7 +1292,19 @@
 		"series": "Elf",
 		"releaseOrder": "84",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "Forgettable Tale...",
@@ -771,7 +1313,19 @@
 		"series": "Red Axe",
 		"releaseOrder": "85",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "22"
+			},
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "17"
+			}
+		]
 	},
 	{
 		"name": "Garden of Tranquillity",
@@ -780,7 +1334,14 @@
 		"series": "",
 		"releaseOrder": "86",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Farming",
+				"boostable": false,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "A Tail of Two Cats",
@@ -816,7 +1377,34 @@
 		"series": "Pirate",
 		"releaseOrder": "90",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "42"
+			},
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Prayer",
+				"boostable": true,
+				"level": "47"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "42"
+			}
+		]
 	},
 	{
 		"name": "Shadow of the Storm",
@@ -825,7 +1413,14 @@
 		"series": "Demon Slayer",
 		"releaseOrder": "91",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "Making History",
@@ -852,7 +1447,29 @@
 		"series": "",
 		"releaseOrder": "94",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "33"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "37"
+			},
+			{
+				"skill": "Ranged",
+				"boostable": true,
+				"level": "37"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "37"
+			}
+		]
 	},
 	{
 		"name": "Devious Minds",
@@ -861,7 +1478,24 @@
 		"series": "",
 		"releaseOrder": "95",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Fletching",
+				"boostable": true,
+				"level": "50"
+			},
+			{
+				"skill": "Runecraft",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "65"
+			}
+		]
 	},
 	{
 		"name": "The Hand in the Sand",
@@ -870,7 +1504,19 @@
 		"series": "",
 		"releaseOrder": "96",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "49"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "17"
+			}
+		]
 	},
 	{
 		"name": "Enakhra's Lament",
@@ -879,7 +1525,29 @@
 		"series": "Mahjarrat",
 		"releaseOrder": "97",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": true,
+				"level": "45"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "39"
+			},
+			{
+				"skill": "Prayer",
+				"boostable": false,
+				"level": "43"
+			}
+		]
 	},
 	{
 		"name": "Cabin Fever",
@@ -888,7 +1556,29 @@
 		"series": "Pirate",
 		"releaseOrder": "98",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "42"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "45"
+			},
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "40"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "Fairytale I - Growing Pains",
@@ -915,7 +1605,24 @@
 		"series": "Myreque",
 		"releaseOrder": "101",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "25"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "7"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "15"
+			}
+		]
 	},
 	{
 		"name": "A Soul's Bane",
@@ -942,7 +1649,39 @@
 		"series": "",
 		"releaseOrder": "104",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "62"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "42"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": true,
+				"level": "62"
+			},
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "66"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "45"
+			}
+		]
 	},
 	{
 		"name": "Royal Trouble",
@@ -951,7 +1690,19 @@
 		"series": "Miscellania",
 		"releaseOrder": "105",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "40"
+			}
+		]
 	},
 	{
 		"name": "Death to the Dorgeshuun",
@@ -960,7 +1711,19 @@
 		"series": "Dorgeshuun",
 		"releaseOrder": "106",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "23"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "23"
+			}
+		]
 	},
 	{
 		"name": "Fairytale II - Cure a Queen",
@@ -969,7 +1732,24 @@
 		"series": "Fairytale",
 		"releaseOrder": "107",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "49"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "57"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "40"
+			}
+		]
 	},
 	{
 		"name": "Lunar Diplomacy",
@@ -978,7 +1758,44 @@
 		"series": "Fremennik",
 		"releaseOrder": "108",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "61"
+			},
+			{
+				"skill": "Defence",
+				"boostable": false,
+				"level": "40"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "49"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "5"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "65"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "55"
+			}
+		]
 	},
 	{
 		"name": "The Eyes of Glouphrie",
@@ -987,7 +1804,19 @@
 		"series": "Gnome",
 		"releaseOrder": "109",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "5"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "46"
+			}
+		]
 	},
 	{
 		"name": "Darkness of Hallowvale",
@@ -996,7 +1825,44 @@
 		"series": "Myreque",
 		"releaseOrder": "110",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "26"
+			},
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "5"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "32"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "33"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Strength",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "22"
+			}
+		]
 	},
 	{
 		"name": "The Slug Menace",
@@ -1005,7 +1871,29 @@
 		"series": "Temple Knight",
 		"releaseOrder": "111",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Runecraft",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "Elemental Workshop II",
@@ -1014,7 +1902,19 @@
 		"series": "Elemental Workshop",
 		"releaseOrder": "112",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Magic",
+				"boostable": true,
+				"level": "20"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": true,
+				"level": "30"
+			}
+		]
 	},
 	{
 		"name": "My Arm's Big Adventure",
@@ -1023,7 +1923,19 @@
 		"series": "Troll",
 		"releaseOrder": "113",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "29"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Enlightened Journey",
@@ -1032,7 +1944,24 @@
 		"series": "",
 		"releaseOrder": "114",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "36"
+			},
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "30"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Eagles' Peak",
@@ -1041,7 +1970,14 @@
 		"series": "",
 		"releaseOrder": "115",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Hunter",
+				"boostable": true,
+				"level": "27"
+			}
+		]
 	},
 	{
 		"name": "Animal Magnetism",
@@ -1050,7 +1986,29 @@
 		"series": "",
 		"releaseOrder": "116",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "19"
+			},
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "18"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "35"
+			}
+		]
 	},
 	{
 		"name": "Contact!",
@@ -1068,7 +2026,34 @@
 		"series": "Penguin",
 		"releaseOrder": "118",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Construction",
+				"boostable": true,
+				"level": "34"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Hunter",
+				"boostable": true,
+				"level": "10"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "15"
+			}
+		]
 	},
 	{
 		"name": "The Fremennik Isles",
@@ -1077,7 +2062,14 @@
 		"series": "Fremennik",
 		"releaseOrder": "119",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Construction",
+				"boostable": true,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "The Great Brain Robbery",
@@ -1086,7 +2078,24 @@
 		"series": "Pirate",
 		"releaseOrder": "121",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "16"
+			},
+			{
+				"skill": "Prayer",
+				"boostable": false,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "What Lies Below",
@@ -1095,7 +2104,14 @@
 		"series": "",
 		"releaseOrder": "122",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Runecraft",
+				"boostable": false,
+				"level": "35"
+			}
+		]
 	},
 	{
 		"name": "Olaf's Quest",
@@ -1104,7 +2120,19 @@
 		"series": "",
 		"releaseOrder": "123",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Firemaking",
+				"boostable": true,
+				"level": "40"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": true,
+				"level": "50"
+			}
+		]
 	},
 	{
 		"name": "Another Slice of H.A.M.",
@@ -1113,7 +2141,19 @@
 		"series": "Dorgeshuun",
 		"releaseOrder": "124",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Attack",
+				"boostable": false,
+				"level": "15"
+			},
+			{
+				"skill": "Prayer",
+				"boostable": false,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Dream Mentor",
@@ -1122,7 +2162,14 @@
 		"series": "",
 		"releaseOrder": "125",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Combat_level",
+				"boostable": false,
+				"level": "85"
+			}
+		]
 	},
 	{
 		"name": "Grim Tales",
@@ -1131,7 +2178,34 @@
 		"series": "",
 		"releaseOrder": "126",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "59"
+			},
+			{
+				"skill": "Farming",
+				"boostable": true,
+				"level": "45"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": true,
+				"level": "52"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": true,
+				"level": "58"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": true,
+				"level": "71"
+			}
+		]
 	},
 	{
 		"name": "King's Ransom",
@@ -1140,7 +2214,19 @@
 		"series": "Camelot",
 		"releaseOrder": "127",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Defence",
+				"boostable": false,
+				"level": "65"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "45"
+			}
+		]
 	},
 	{
 		"name": "Shilo Village",
@@ -1149,7 +2235,19 @@
 		"series": "",
 		"releaseOrder": "41",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "32"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "Biohazard",
@@ -1167,7 +2265,14 @@
 		"series": "",
 		"releaseOrder": "120",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Rag and Bone Man II",
@@ -1176,7 +2281,19 @@
 		"series": "Rag and Bone Man",
 		"releaseOrder": "131",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Defence",
+				"boostable": false,
+				"level": "20"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "40"
+			}
+		]
 	},
 	{
 		"name": "Land of the Goblins",
@@ -1185,7 +2302,29 @@
 		"series": "Dorgeshuun",
 		"releaseOrder": "151",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "38"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": false,
+				"level": "40"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "48"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "45"
+			}
+		]
 	},
 	{
 		"name": "Zogre Flesh Eaters",
@@ -1194,7 +2333,24 @@
 		"series": "",
 		"releaseOrder": "80",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "8"
+			},
+			{
+				"skill": "Ranged",
+				"boostable": false,
+				"level": "30"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "4"
+			}
+		]
 	},
 	{
 		"name": "Monkey Madness II",
@@ -1203,7 +2359,39 @@
 		"series": "Gnome",
 		"releaseOrder": "128",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "55"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Hunter",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "69"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "55"
+			}
+		]
 	},
 	{
 		"name": "Client of Kourend",
@@ -1239,7 +2427,44 @@
 		"series": "Dragonkin",
 		"releaseOrder": "136",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "62"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "75"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "68"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "60"
+			}
+		]
 	},
 	{
 		"name": "The Depths of Despair",
@@ -1248,7 +2473,14 @@
 		"series": "Great Kourend",
 		"releaseOrder": "134",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "18"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Another Cook's Quest",
@@ -1257,7 +2489,14 @@
 		"series": "",
 		"releaseOrder": "100.1",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Freeing the Goblin generals",
@@ -1284,7 +2523,14 @@
 		"series": "",
 		"releaseOrder": "100.6",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": false,
+				"level": "25"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Pirate Pete",
@@ -1293,7 +2539,14 @@
 		"series": "",
 		"releaseOrder": "100.4",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": false,
+				"level": "31"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Freeing the Lumbridge Guide",
@@ -1302,7 +2555,14 @@
 		"series": "",
 		"releaseOrder": "100.5",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "40"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Sir Amik Varze",
@@ -1320,7 +2580,19 @@
 		"series": "",
 		"releaseOrder": "100.7",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "48"
+			},
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "70"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Skrach Uglogwee",
@@ -1329,7 +2601,19 @@
 		"series": "",
 		"releaseOrder": "100.9",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Cooking",
+				"boostable": true,
+				"level": "41"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "20"
+			}
+		]
 	},
 	{
 		"name": "A Taste of Hope",
@@ -1338,7 +2622,24 @@
 		"series": "Myreque",
 		"releaseOrder": "138",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Attack",
+				"boostable": false,
+				"level": "40"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "48"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "38"
+			}
+		]
 	},
 	{
 		"name": "Tale of the Righteous",
@@ -1347,7 +2648,19 @@
 		"series": "Great Kourend",
 		"releaseOrder": "137",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "10"
+			},
+			{
+				"skill": "Strength",
+				"boostable": false,
+				"level": "16"
+			}
+		]
 	},
 	{
 		"name": "Making Friends with My Arm",
@@ -1356,7 +2669,29 @@
 		"series": "Troll",
 		"releaseOrder": "139",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": true,
+				"level": "68"
+			},
+			{
+				"skill": "Construction",
+				"boostable": true,
+				"level": "35"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "66"
+			},
+			{
+				"skill": "Mining",
+				"boostable": true,
+				"level": "72"
+			}
+		]
 	},
 	{
 		"name": "Recipe for Disaster/Defeating the Culinaromancer",
@@ -1374,7 +2709,49 @@
 		"series": "Elf",
 		"releaseOrder": "143",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Farming",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Hunter",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "70"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "70"
+			}
+		]
 	},
 	{
 		"name": "The Ascent of Arceuus",
@@ -1383,7 +2760,14 @@
 		"series": "Great Kourend",
 		"releaseOrder": "141",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Hunter",
+				"boostable": false,
+				"level": "12"
+			}
+		]
 	},
 	{
 		"name": "The Forsaken Tower",
@@ -1401,7 +2785,34 @@
 		"series": "Fremennik",
 		"releaseOrder": "144",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "65"
+			},
+			{
+				"skill": "Fishing",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Runecraft",
+				"boostable": false,
+				"level": "55"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Smithing",
+				"boostable": false,
+				"level": "60"
+			}
+		]
 	},
 	{
 		"name": "Sins of the Father",
@@ -1410,7 +2821,44 @@
 		"series": "Myreque",
 		"releaseOrder": "145",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "52"
+			},
+			{
+				"skill": "Attack",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "56"
+			},
+			{
+				"skill": "Fletching",
+				"boostable": false,
+				"level": "60"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "49"
+			},
+			{
+				"skill": "Slayer",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "62"
+			}
+		]
 	},
 	{
 		"name": "A Kingdom Divided",
@@ -1419,7 +2867,44 @@
 		"series": "Great Kourend",
 		"releaseOrder": "150",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "54"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "38"
+			},
+			{
+				"skill": "Herblore",
+				"boostable": false,
+				"level": "50"
+			},
+			{
+				"skill": "Magic",
+				"boostable": false,
+				"level": "35"
+			},
+			{
+				"skill": "Mining",
+				"boostable": false,
+				"level": "42"
+			},
+			{
+				"skill": "Thieving",
+				"boostable": false,
+				"level": "52"
+			},
+			{
+				"skill": "Woodcutting",
+				"boostable": false,
+				"level": "52"
+			}
+		]
 	},
 	{
 		"name": "A Porcine of Interest",
@@ -1437,7 +2922,14 @@
 		"series": "Twisted Tales",
 		"releaseOrder": "147",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Construction",
+				"boostable": false,
+				"level": "26"
+			}
+		]
 	},
 	{
 		"name": "A Night at the Theatre",
@@ -1455,7 +2947,24 @@
 		"series": "Kharidian",
 		"releaseOrder": "153",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Agility",
+				"boostable": false,
+				"level": "62"
+			},
+			{
+				"skill": "Crafting",
+				"boostable": false,
+				"level": "55"
+			},
+			{
+				"skill": "Firemaking",
+				"boostable": false,
+				"level": "55"
+			}
+		]
 	},
 	{
 		"name": "Temple of the Eye",
@@ -1464,7 +2973,14 @@
 		"series": "Order of Wizards",
 		"releaseOrder": "152",
 		"members": true,
-		"miniquest": false
+		"miniquest": false,
+		"skillsRequired": [
+			{
+				"skill": "Runecraft",
+				"boostable": false,
+				"level": "10"
+			}
+		]
 	},
 	{
 		"name": "Sleeping Giants",
