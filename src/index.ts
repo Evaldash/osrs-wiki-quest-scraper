@@ -1,54 +1,37 @@
 import { Quest } from './types';
-import {getQuests, addQuestSkills, readQuestFile, extractQuestInfo} from './functions';
+import {
+    getBaseQuestList
+    ,readQuestFile
+    ,extractQuestInfo
+    ,findMissingQuests
+} from './functions';
 import * as fs from 'fs';
 import * as chalk from 'chalk';
 
 
-const mockQuest: Quest = {
-    miniquest: false,
-    members: false,
-
-    name: 'Dragon Slayer I',
-    url: 'https://oldschool.runescape.wiki/w/Dragon_Slayer_I',
-    shortName: '',
-    difficulty: '',
-    subquests: [],
-    questLength: '',
-    requirements: [],
-    series: '',
-    rewards: [],
-    description: '',
-    itemsRequired: [],
-    itemsRecommended: [],
-    enemiesToDefeat: []
-}
-
-
 
 const main = async () => {
-    const quests = await getQuests();
-    
-    
-    //const questsWithSkills = await addQuestSkills(quests);
+    const wikiQuestList = await getBaseQuestList();
+    const localQuestList = await readQuestFile();
 
-    fs.writeFile ("./output/quests.json", JSON.stringify(quests, null, '\t'), function(err) {
-       if (err) throw err;
-        console.log(chalk.green('Complete, result saved to output/quests.json'));
+    fs.writeFile ("./output/quests.json", JSON.stringify(wikiQuestList, null, '\t'), function(err) {
+        if (err) throw err;
+         console.log(chalk.green('Complete, result saved to output/quests.json'));
+         }
+     );
+
+    if (localQuestList == null) console.error(chalk.red("Error: couldnt get any data from quests-TODO.json"));
+    else{
+        const missingQuests = findMissingQuests(wikiQuestList, localQuestList);
+
+        if(missingQuests.length > 0){
+            console.log(chalk.yellow('----------------------------------------------------'));
+            console.log(chalk.yellow(`${missingQuests.length} quests seem to be missing from quests-TODO.json:`));
+            missingQuests.forEach( (missingQuest: Quest, i) => {console.log(chalk.yellow(`${i+1}. ${missingQuest.name}`))} )
+            console.log(chalk.yellow('----------------------------------------------------'));
         }
-    ); 
-
-
-    //extractQuestInfo(mockQuest);
+        else console.log(chalk.green('All quests are present, no need to DDOS the wiki'));
+    }
 }
-
-/*
-readQuestFile
-    .then((quests) => {
-        console.log(quests);
-    })
-    .catch(err => {
-        console.log(err)
-    })
-*/
 
 main();

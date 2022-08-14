@@ -958,7 +958,7 @@
 },
 {
     "miniquest": false,
-    "name": "Dragon Slayer",
+    "name": "Dragon Slayer I",
     "shortName": "dragonSlayer",
     "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer",
     "members": false,
@@ -3072,7 +3072,7 @@
 {
     "miniquest": false,
     "shortName": "ragAndBoneManI",
-    "name": "Rag and Bone Man",
+    "name": "Rag and Bone Man I",
     "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man",
     "members": true,
     "difficulty": "Novice",

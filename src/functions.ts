@@ -4,14 +4,10 @@ import {load} from 'cheerio';
 import axios from 'axios';
 
 import {Quest, QuestReq, QuestReward} from './types';
-
-const skillNames = [
-    'Agility', 'Attack', 'Construction', 'Cooking', 'Crafting', 'Defence', 'Farming', 'Firemaking', 'Fishing', 'Fletching', 'Herblore',
-    'Hitpoints', 'Hunter', 'Magic', 'Mining', 'Prayer', 'Ranged', 'Runecraft', 'Slayer', 'Smithing', 'Strength', 'Thieving', 'Woodcutting'
-]
+import chalk = require('chalk');
 
 
-function omitKeys(obj: any, keys: string[]) {
+export const omitKeys = (obj: any, keys: string[]) => {
     var dup = {} as any;
     for (const key in obj) {
         if (keys.indexOf(key) == -1) {
@@ -21,7 +17,7 @@ function omitKeys(obj: any, keys: string[]) {
     return dup;
 }
 
-function toPascalCase(string: string) {
+const toPascalCase = (string: string) => {
     return `${string}`
       .toLowerCase()
       .replace(new RegExp(/[-_]+/, 'g'), ' ')
@@ -31,108 +27,96 @@ function toPascalCase(string: string) {
         ($1, $2, $3) => `${$2.toUpperCase() + $3}`
       )
       .replace(new RegExp(/\w/), s => s.toUpperCase());
-  }
+}
 
-
-const getQuests = () => new Promise<Quest[]>(function (resolve, reject){
-    const questListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
-    const questList: Quest[] = [];
+// TODO: identify f2p, members, and miniquests
+export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
+    const qListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
+    const qList: Quest[] = [];
 
     try {
-        axios(questListURL) // get all quests
+        axios(qListURL) // get all quests
             .then(response => {
                 const html = response.data.replace(/(\r\n|\n|\r)/gm, "");
                 let $ = load(html);
 
+  
                 $(".wikitable", html).each(function() {
-                    let nameColumnIndex = -1;
+                    let questNumberColIndex = -1, nameColIndex = -1, seriesColIndex = -1, relDateColIndex = -1;
+                    let wikitable = this;
 
-                    $(this) // find name column number
+                    const sectionTitle = $(wikitable).prevAll("h2").first().find("span").attr("id");
+
+                    const isMembersTable   = (sectionTitle === "Members'_quests");
+                    const isF2pTable       = (sectionTitle === "Free-to-play_quests");
+                    const isMiniquestTable = (sectionTitle === "Miniquests");
+
+                    // find column places
+                    $(wikitable)  
                         .find("tbody")
                         .find("tr")
                         .first()
                         .find("th")
                         .each((i, el) => {
-                            if ($(el).text() === 'Name') {
-                                nameColumnIndex = i;
-                                return false;
+                            switch($(el).text()) {
+                                case "#":            questNumberColIndex = i;   break;
+                                case "Name":         nameColIndex = i;          break;
+                                case "Series":       seriesColIndex = i;        break;
+
+                                // case "QP Reward":    qPointsRewardColIndex = i; break; FIXME: handle special column
+                                // case "Release date": relDateColIndex = i;       break; FIXME: multiple a elements inside
+                                
+                                case "Difficulty": case "Length": {} break;
                             }
                         })
 
-                        if (nameColumnIndex === -1) return; // not a quest table
+                    if(nameColIndex === -1) return; // not a quest table
                         
-                        $(this)
+                        // extract info from the tables
+                        $(wikitable)
                             .find("tbody")
                             .find("tr")
                             .each(function() {
-                                const questName = $(this).find(`td:nth-child(${nameColumnIndex+1})`).find("a").text();
-                                const questLink = $(this).find(`td:nth-child(${nameColumnIndex+1})`).find("a").attr("href");
-                                if (questName != ''){
-                                    const quest = {} as Quest;
-                                    quest.name = questName;
-                                    quest.shortName = toPascalCase(questName);
-                                    quest.url = `https://oldschool.runescape.wiki${questLink}`;
+                                const qReleaseOrder = $(this).find("td").eq(questNumberColIndex).text();
+                                const qName = $(this).find("td").eq(nameColIndex).find("a").text();
+                                const qSeries = $(this).find("td").eq(seriesColIndex).find("a").text();
 
-                                    questList.push(quest);
+                                const questLink = $(this).find(`td:nth-child(${nameColIndex+1})`).find("a").attr("href");
+                                if (qName != ''){
+                                    const quest = {} as Quest;
+
+                                    quest.name = qName;
+                                    quest.shortName = toPascalCase(qName);
+                                    quest.url = `https://oldschool.runescape.wiki${questLink}`;
+                                    quest.releaseOrder = qReleaseOrder;
+                                    quest.series = qSeries;
+
+                                    if (!(isMembersTable || isMiniquestTable) && !isF2pTable) console.warn(chalk.yellow("Warning: unknown quest table, assuming quest is members"));
+
+                                    quest.members = (isMembersTable || isMiniquestTable) ? true : isF2pTable ? false : true;
+                                    quest.miniquest = isMiniquestTable;
+
+                                    qList.push(quest);
                                 }
                             })
-                        
+                  
                 })
-                resolve(questList);
+
+                resolve(qList);
             })
     } catch(err){}
 })
 
-const addQuestSkills = (questList: Quest[]) => new Promise<Quest[]>(function (resolve, reject){
-    const questReqURL = 'https://oldschool.runescape.wiki/w/Quests/Skill_requirements';
 
-    axios(questReqURL) // get the quest requirements
-    .then(response => {
-        const html = response.data;
-        const $ = load(html);
+const writeCheerioToFile = (html: string) => {
+    fs.writeFile ("./output/downloaded.html", html, function(err) {
+        if (err) throw err;
+         console.log(chalk.green('Downloaded html saved to /output/downloaded.html'));
+         }
+     );
+}
 
-        skillNames.forEach((skillName) => {
-
-            $(`#${skillName}`, html) // find the title
-                .parent()
-                .next("div")
-                .find("ul")
-                .find("li")
-                .each(function(){
-                    const htmlLine = $(this).html() as any;
-
-                    const questReq = {} as QuestReq;
-                    questReq.skill = skillName;
-                    questReq.boostable = htmlLine.includes("*");
-                    questReq.level = htmlLine.substring(0, htmlLine.indexOf(' '));
-
-                    let partialUrl = '';
-                    const questLink = $(this).find("a").attr("href") as any;
-                    
-                    switch (questLink){
-                        case '/w/Forgettable_Tale_of_a_Drunken_Dwarf' : partialUrl = '/w/Forgettable_Tale...';  break;
-                        case '/w/Slug_Menace':                          partialUrl = '/w/The_Slug_Menace';      break;
-                        case '/w/Tears_of_Guthix_(quest)':              partialUrl = '/w/Tears_of_Guthix';      break;
-                        case '/w/Underground_Pass_(quest)':             partialUrl = '/w/Underground_Pass';     break;
-                        default:                                        partialUrl = questLink;                 break;
-                    }
-
-                    questReq.url = `https://oldschool.runescape.wiki${partialUrl}`;
-
-                    const questIndex = questList.findIndex((quest: Quest) => quest.url === questReq.url);
-                    if (questIndex === -1) console.warn(`Warning: couldnt find a quest for requirement with link: ${questReq.url}`);
-                    else {
-                        if (questList[questIndex].requirements == null) questList[questIndex].requirements = [];
-                        questList[questIndex].requirements.push(omitKeys(questReq, ['url']));
-                    }
-            })
-        })
-
-        resolve(questList);
-    })
-})
-
-const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
+export const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
     const questURL = quest.url;
 
     axios(questURL) // get the quest info
@@ -162,7 +146,7 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
                     }
                 })
 
-                console.log(quest);
+                //console.log(quest);
 
                // console.log(html);5
 
@@ -171,10 +155,10 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
 })
 
 
-const readQuestFile = new Promise(function (resolve, reject){
+export const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, reject){
     try{
         const filePath = path.join(__dirname, '../output/quests-TODO.json');
-        const quests = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        const quests = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Quest[];
         resolve(quests);
     }
     catch(err) {
@@ -182,4 +166,14 @@ const readQuestFile = new Promise(function (resolve, reject){
     }
 })
 
-export {getQuests, readQuestFile, addQuestSkills, extractQuestInfo};
+
+export const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
+    const missingQuests = [] as Quest[];
+
+    wikiQuests.forEach((wikiQuest) => {
+        const localQuest = localQuests.find((localQuest) => (localQuest.name === wikiQuest.name));
+        if (localQuest == null) missingQuests.push(wikiQuest);
+    })
+
+    return(missingQuests);
+}

@@ -2,901 +2,1621 @@
 	{
 		"name": "Below Ice Mountain",
 		"shortName": "BelowIceMountain",
-		"url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain"
+		"url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+		"releaseOrder": "148",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Black Knights' Fortress",
 		"shortName": "BlackKnightsFortress",
-		"url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress"
+		"url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+		"releaseOrder": "12",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Cook's Assistant",
 		"shortName": "CooksAssistant",
-		"url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant"
+		"url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+		"releaseOrder": "1",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "The Corsair Curse",
 		"shortName": "TheCorsairCurse",
-		"url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse"
+		"url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+		"releaseOrder": "135",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Demon Slayer",
 		"shortName": "DemonSlayer",
-		"url": "https://oldschool.runescape.wiki/w/Demon_Slayer"
+		"url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+		"releaseOrder": "2",
+		"series": "Demon Slayer",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Doric's Quest",
 		"shortName": "DoricsQuest",
-		"url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+		"releaseOrder": "11",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Dragon Slayer I",
 		"shortName": "DragonSlayerI",
-		"url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I"
+		"url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I",
+		"releaseOrder": "17",
+		"series": "Dragonkin",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Ernest the Chicken",
 		"shortName": "ErnestTheChicken",
-		"url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken"
+		"url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+		"releaseOrder": "7",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Goblin Diplomacy",
 		"shortName": "GoblinDiplomacy",
-		"url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy"
+		"url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+		"releaseOrder": "15",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Imp Catcher",
 		"shortName": "ImpCatcher",
-		"url": "https://oldschool.runescape.wiki/w/Imp_Catcher"
+		"url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
+		"releaseOrder": "9",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "The Knight's Sword",
 		"shortName": "TheKnightsSword",
-		"url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword"
+		"url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+		"releaseOrder": "14",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Misthalin Mystery",
 		"shortName": "MisthalinMystery",
-		"url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery"
+		"url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+		"releaseOrder": "129",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Pirate's Treasure",
 		"shortName": "PiratesTreasure",
-		"url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure"
+		"url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+		"releaseOrder": "16",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Prince Ali Rescue",
 		"shortName": "PrinceAliRescue",
-		"url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue"
+		"url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+		"releaseOrder": "10",
+		"series": "Kharidian",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "The Restless Ghost",
 		"shortName": "TheRestlessGhost",
-		"url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
+		"url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+		"releaseOrder": "3",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Romeo & Juliet",
 		"shortName": "RomeoJuliet",
-		"url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet"
+		"url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+		"releaseOrder": "4",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Rune Mysteries",
 		"shortName": "RuneMysteries",
-		"url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+		"url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+		"releaseOrder": "51",
+		"series": "Order of Wizards",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Sheep Shearer",
 		"shortName": "SheepShearer",
-		"url": "https://oldschool.runescape.wiki/w/Sheep_Shearer"
+		"url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+		"releaseOrder": "5",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Shield of Arrav",
 		"shortName": "ShieldOfArrav",
-		"url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav"
+		"url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+		"releaseOrder": "6",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Vampyre Slayer",
 		"shortName": "VampyreSlayer",
-		"url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer"
+		"url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+		"releaseOrder": "8",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Witch's Potion",
 		"shortName": "WitchsPotion",
-		"url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion"
+		"url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+		"releaseOrder": "13",
+		"series": "",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "X Marks the Spot",
 		"shortName": "XMarksTheSpot",
-		"url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot"
+		"url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+		"releaseOrder": "142",
+		"series": "Great Kourend",
+		"members": false,
+		"miniquest": false
 	},
 	{
 		"name": "Druidic Ritual",
 		"shortName": "DruidicRitual",
-		"url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+		"url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
+		"releaseOrder": "18",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Lost City",
 		"shortName": "LostCity",
-		"url": "https://oldschool.runescape.wiki/w/Lost_City"
+		"url": "https://oldschool.runescape.wiki/w/Lost_City",
+		"releaseOrder": "19",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Witch's House",
 		"shortName": "WitchsHouse",
-		"url": "https://oldschool.runescape.wiki/w/Witch%27s_House"
+		"url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
+		"releaseOrder": "20",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Merlin's Crystal",
 		"shortName": "MerlinsCrystal",
-		"url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal"
+		"url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
+		"releaseOrder": "21",
+		"series": "Camelot",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Heroes' Quest",
 		"shortName": "HeroesQuest",
-		"url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
+		"releaseOrder": "22",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Scorpion Catcher",
 		"shortName": "ScorpionCatcher",
-		"url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher"
+		"url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
+		"releaseOrder": "23",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Family Crest",
 		"shortName": "FamilyCrest",
-		"url": "https://oldschool.runescape.wiki/w/Family_Crest"
+		"url": "https://oldschool.runescape.wiki/w/Family_Crest",
+		"releaseOrder": "24",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Fishing Contest",
 		"shortName": "FishingContest",
-		"url": "https://oldschool.runescape.wiki/w/Fishing_Contest"
+		"url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
+		"releaseOrder": "26",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tribal Totem",
 		"shortName": "TribalTotem",
-		"url": "https://oldschool.runescape.wiki/w/Tribal_Totem"
+		"url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
+		"releaseOrder": "25",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Monk's Friend",
 		"shortName": "MonksFriend",
-		"url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend"
+		"url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
+		"releaseOrder": "27",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Temple of Ikov",
 		"shortName": "TempleOfIkov",
-		"url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov"
+		"url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
+		"releaseOrder": "28",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Clock Tower",
 		"shortName": "ClockTower",
-		"url": "https://oldschool.runescape.wiki/w/Clock_Tower"
+		"url": "https://oldschool.runescape.wiki/w/Clock_Tower",
+		"releaseOrder": "29",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Holy Grail",
 		"shortName": "HolyGrail",
-		"url": "https://oldschool.runescape.wiki/w/Holy_Grail"
+		"url": "https://oldschool.runescape.wiki/w/Holy_Grail",
+		"releaseOrder": "30",
+		"series": "Camelot",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tree Gnome Village",
 		"shortName": "TreeGnomeVillage",
-		"url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village"
+		"url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
+		"releaseOrder": "31",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Fight Arena",
 		"shortName": "FightArena",
-		"url": "https://oldschool.runescape.wiki/w/Fight_Arena"
+		"url": "https://oldschool.runescape.wiki/w/Fight_Arena",
+		"releaseOrder": "32",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Hazeel Cult",
 		"shortName": "HazeelCult",
-		"url": "https://oldschool.runescape.wiki/w/Hazeel_Cult"
+		"url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
+		"releaseOrder": "33",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Sheep Herder",
 		"shortName": "SheepHerder",
-		"url": "https://oldschool.runescape.wiki/w/Sheep_Herder"
+		"url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
+		"releaseOrder": "34",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Plague City",
 		"shortName": "PlagueCity",
-		"url": "https://oldschool.runescape.wiki/w/Plague_City"
+		"url": "https://oldschool.runescape.wiki/w/Plague_City",
+		"releaseOrder": "35",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Sea Slug",
 		"shortName": "SeaSlug",
-		"url": "https://oldschool.runescape.wiki/w/Sea_Slug"
+		"url": "https://oldschool.runescape.wiki/w/Sea_Slug",
+		"releaseOrder": "36",
+		"series": "Temple Knight",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Waterfall Quest",
 		"shortName": "WaterfallQuest",
-		"url": "https://oldschool.runescape.wiki/w/Waterfall_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
+		"releaseOrder": "37",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Jungle Potion",
 		"shortName": "JunglePotion",
-		"url": "https://oldschool.runescape.wiki/w/Jungle_Potion"
+		"url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
+		"releaseOrder": "39",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Grand Tree",
 		"shortName": "TheGrandTree",
-		"url": "https://oldschool.runescape.wiki/w/The_Grand_Tree"
+		"url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
+		"releaseOrder": "40",
+		"series": "Gnome",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Underground Pass",
 		"shortName": "UndergroundPass",
-		"url": "https://oldschool.runescape.wiki/w/Underground_Pass"
+		"url": "https://oldschool.runescape.wiki/w/Underground_Pass",
+		"releaseOrder": "42",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Observatory Quest",
 		"shortName": "ObservatoryQuest",
-		"url": "https://oldschool.runescape.wiki/w/Observatory_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
+		"releaseOrder": "43",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Tourist Trap",
 		"shortName": "TheTouristTrap",
-		"url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap"
+		"url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
+		"releaseOrder": "44",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Watchtower",
 		"shortName": "Watchtower",
-		"url": "https://oldschool.runescape.wiki/w/Watchtower"
+		"url": "https://oldschool.runescape.wiki/w/Watchtower",
+		"releaseOrder": "45",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Dwarf Cannon",
 		"shortName": "DwarfCannon",
-		"url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon"
+		"url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
+		"releaseOrder": "46",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Murder Mystery",
 		"shortName": "MurderMystery",
-		"url": "https://oldschool.runescape.wiki/w/Murder_Mystery"
+		"url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
+		"releaseOrder": "47",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Dig Site",
 		"shortName": "TheDigSite",
-		"url": "https://oldschool.runescape.wiki/w/The_Dig_Site"
+		"url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
+		"releaseOrder": "48",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Gertrude's Cat",
 		"shortName": "GertrudesCat",
-		"url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat"
+		"url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
+		"releaseOrder": "49",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Legends' Quest",
 		"shortName": "LegendsQuest",
-		"url": "https://oldschool.runescape.wiki/w/Legends%27_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
+		"releaseOrder": "50",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Death Plateau",
 		"shortName": "DeathPlateau",
-		"url": "https://oldschool.runescape.wiki/w/Death_Plateau"
+		"url": "https://oldschool.runescape.wiki/w/Death_Plateau",
+		"releaseOrder": "56",
+		"series": "Troll",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Eadgar's Ruse",
 		"shortName": "EadgarsRuse",
-		"url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse"
+		"url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
+		"releaseOrder": "60",
+		"series": "Troll",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Big Chompy Bird Hunting",
 		"shortName": "BigChompyBirdHunting",
-		"url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting"
+		"url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
+		"releaseOrder": "52",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Elemental Workshop I",
 		"shortName": "ElementalWorkshopI",
-		"url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I"
+		"url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
+		"releaseOrder": "53",
+		"series": "Elemental Workshop",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Nature Spirit",
 		"shortName": "NatureSpirit",
-		"url": "https://oldschool.runescape.wiki/w/Nature_Spirit"
+		"url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
+		"releaseOrder": "55",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Priest in Peril",
 		"shortName": "PriestInPeril",
-		"url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+		"url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
+		"releaseOrder": "54",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Regicide",
 		"shortName": "Regicide",
-		"url": "https://oldschool.runescape.wiki/w/Regicide"
+		"url": "https://oldschool.runescape.wiki/w/Regicide",
+		"releaseOrder": "59",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tai Bwo Wannai Trio",
 		"shortName": "TaiBwoWannaiTrio",
-		"url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio"
+		"url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
+		"releaseOrder": "58",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Troll Stronghold",
 		"shortName": "TrollStronghold",
-		"url": "https://oldschool.runescape.wiki/w/Troll_Stronghold"
+		"url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
+		"releaseOrder": "57",
+		"series": "Troll",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Shades of Mort'ton",
 		"shortName": "ShadesOfMortton",
-		"url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton"
+		"url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
+		"releaseOrder": "61",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Fremennik Trials",
 		"shortName": "TheFremennikTrials",
-		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials"
+		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
+		"releaseOrder": "62",
+		"series": "Fremennik",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Horror from the Deep",
 		"shortName": "HorrorFromTheDeep",
-		"url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep"
+		"url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
+		"releaseOrder": "63",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Throne of Miscellania",
 		"shortName": "ThroneOfMiscellania",
-		"url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania"
+		"url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
+		"releaseOrder": "64",
+		"series": "Miscellania",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Monkey Madness I",
 		"shortName": "MonkeyMadnessI",
-		"url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I"
+		"url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
+		"releaseOrder": "65",
+		"series": "Gnome",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Haunted Mine",
 		"shortName": "HauntedMine",
-		"url": "https://oldschool.runescape.wiki/w/Haunted_Mine"
+		"url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
+		"releaseOrder": "66",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Troll Romance",
 		"shortName": "TrollRomance",
-		"url": "https://oldschool.runescape.wiki/w/Troll_Romance"
+		"url": "https://oldschool.runescape.wiki/w/Troll_Romance",
+		"releaseOrder": "67",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "In Search of the Myreque",
 		"shortName": "InSearchOfTheMyreque",
-		"url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque"
+		"url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
+		"releaseOrder": "68",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Creature of Fenkenstrain",
 		"shortName": "CreatureOfFenkenstrain",
-		"url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
+		"url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
+		"releaseOrder": "69",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Roving Elves",
 		"shortName": "RovingElves",
-		"url": "https://oldschool.runescape.wiki/w/Roving_Elves"
+		"url": "https://oldschool.runescape.wiki/w/Roving_Elves",
+		"releaseOrder": "70",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Ghosts Ahoy",
 		"shortName": "GhostsAhoy",
-		"url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy"
+		"url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
+		"releaseOrder": "71",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "One Small Favour",
 		"shortName": "OneSmallFavour",
-		"url": "https://oldschool.runescape.wiki/w/One_Small_Favour"
+		"url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
+		"releaseOrder": "72",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Mountain Daughter",
 		"shortName": "MountainDaughter",
-		"url": "https://oldschool.runescape.wiki/w/Mountain_Daughter"
+		"url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
+		"releaseOrder": "73",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Between a Rock...",
 		"shortName": "BetweenARock",
-		"url": "https://oldschool.runescape.wiki/w/Between_a_Rock..."
+		"url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
+		"releaseOrder": "74",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Feud",
 		"shortName": "TheFeud",
-		"url": "https://oldschool.runescape.wiki/w/The_Feud"
+		"url": "https://oldschool.runescape.wiki/w/The_Feud",
+		"releaseOrder": "75",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Golem",
 		"shortName": "TheGolem",
-		"url": "https://oldschool.runescape.wiki/w/The_Golem"
+		"url": "https://oldschool.runescape.wiki/w/The_Golem",
+		"releaseOrder": "76",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Desert Treasure",
 		"shortName": "DesertTreasure",
-		"url": "https://oldschool.runescape.wiki/w/Desert_Treasure"
+		"url": "https://oldschool.runescape.wiki/w/Desert_Treasure",
+		"releaseOrder": "77",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Icthlarin's Little Helper",
 		"shortName": "IcthlarinsLittleHelper",
-		"url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper"
+		"url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
+		"releaseOrder": "78",
+		"series": "Kharidian",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tears of Guthix",
 		"shortName": "TearsOfGuthix",
-		"url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix"
+		"url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix",
+		"releaseOrder": "79",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Lost Tribe",
 		"shortName": "TheLostTribe",
-		"url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe"
+		"url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
+		"releaseOrder": "81",
+		"series": "Dorgeshuun",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Giant Dwarf",
 		"shortName": "TheGiantDwarf",
-		"url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf"
+		"url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
+		"releaseOrder": "82",
+		"series": "Red Axe",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recruitment Drive",
 		"shortName": "RecruitmentDrive",
-		"url": "https://oldschool.runescape.wiki/w/Recruitment_Drive"
+		"url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
+		"releaseOrder": "83",
+		"series": "Temple Knight",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Mourning's End Part I",
 		"shortName": "MourningsEndPartI",
-		"url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_I"
+		"url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_I",
+		"releaseOrder": "84",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Forgettable Tale...",
 		"shortName": "ForgettableTale",
-		"url": "https://oldschool.runescape.wiki/w/Forgettable_Tale..."
+		"url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
+		"releaseOrder": "85",
+		"series": "Red Axe",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Garden of Tranquillity",
 		"shortName": "GardenOfTranquillity",
-		"url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity"
+		"url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
+		"releaseOrder": "86",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Tail of Two Cats",
 		"shortName": "ATailOfTwoCats",
-		"url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats"
+		"url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
+		"releaseOrder": "87",
+		"series": "Dragonkin",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Wanted!",
 		"shortName": "Wanted",
-		"url": "https://oldschool.runescape.wiki/w/Wanted!"
+		"url": "https://oldschool.runescape.wiki/w/Wanted!",
+		"releaseOrder": "88",
+		"series": "Temple Knight",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Mourning's End Part II",
 		"shortName": "MourningsEndPartIi",
-		"url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II"
+		"url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II",
+		"releaseOrder": "89",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Rum Deal",
 		"shortName": "RumDeal",
-		"url": "https://oldschool.runescape.wiki/w/Rum_Deal"
+		"url": "https://oldschool.runescape.wiki/w/Rum_Deal",
+		"releaseOrder": "90",
+		"series": "Pirate",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Shadow of the Storm",
 		"shortName": "ShadowOfTheStorm",
-		"url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm"
+		"url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
+		"releaseOrder": "91",
+		"series": "Demon Slayer",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Making History",
 		"shortName": "MakingHistory",
-		"url": "https://oldschool.runescape.wiki/w/Making_History"
+		"url": "https://oldschool.runescape.wiki/w/Making_History",
+		"releaseOrder": "92",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Ratcatchers",
 		"shortName": "Ratcatchers",
-		"url": "https://oldschool.runescape.wiki/w/Ratcatchers"
+		"url": "https://oldschool.runescape.wiki/w/Ratcatchers",
+		"releaseOrder": "93",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Spirits of the Elid",
 		"shortName": "SpiritsOfTheElid",
-		"url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid"
+		"url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
+		"releaseOrder": "94",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Devious Minds",
 		"shortName": "DeviousMinds",
-		"url": "https://oldschool.runescape.wiki/w/Devious_Minds"
+		"url": "https://oldschool.runescape.wiki/w/Devious_Minds",
+		"releaseOrder": "95",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Hand in the Sand",
 		"shortName": "TheHandInTheSand",
-		"url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand"
+		"url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
+		"releaseOrder": "96",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Enakhra's Lament",
 		"shortName": "EnakhrasLament",
-		"url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament"
+		"url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
+		"releaseOrder": "97",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Cabin Fever",
 		"shortName": "CabinFever",
-		"url": "https://oldschool.runescape.wiki/w/Cabin_Fever"
+		"url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
+		"releaseOrder": "98",
+		"series": "Pirate",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Fairytale I - Growing Pains",
 		"shortName": "FairytaleIGrowingPains",
-		"url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains"
+		"url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
+		"releaseOrder": "99",
+		"series": "Fairytale",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster",
 		"shortName": "RecipeForDisaster",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
+		"releaseOrder": "100",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "In Aid of the Myreque",
 		"shortName": "InAidOfTheMyreque",
-		"url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque"
+		"url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
+		"releaseOrder": "101",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Soul's Bane",
 		"shortName": "ASoulsBane",
-		"url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane"
+		"url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
+		"releaseOrder": "102",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Rag and Bone Man I",
 		"shortName": "RagAndBoneManI",
-		"url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I"
+		"url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I",
+		"releaseOrder": "103",
+		"series": "Rag and Bone Man",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Swan Song",
 		"shortName": "SwanSong",
-		"url": "https://oldschool.runescape.wiki/w/Swan_Song"
+		"url": "https://oldschool.runescape.wiki/w/Swan_Song",
+		"releaseOrder": "104",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Royal Trouble",
 		"shortName": "RoyalTrouble",
-		"url": "https://oldschool.runescape.wiki/w/Royal_Trouble"
+		"url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
+		"releaseOrder": "105",
+		"series": "Miscellania",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Death to the Dorgeshuun",
 		"shortName": "DeathToTheDorgeshuun",
-		"url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun"
+		"url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
+		"releaseOrder": "106",
+		"series": "Dorgeshuun",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Fairytale II - Cure a Queen",
 		"shortName": "FairytaleIiCureAQueen",
-		"url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen"
+		"url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
+		"releaseOrder": "107",
+		"series": "Fairytale",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Lunar Diplomacy",
 		"shortName": "LunarDiplomacy",
-		"url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy"
+		"url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
+		"releaseOrder": "108",
+		"series": "Fremennik",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Eyes of Glouphrie",
 		"shortName": "TheEyesOfGlouphrie",
-		"url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie"
+		"url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
+		"releaseOrder": "109",
+		"series": "Gnome",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Darkness of Hallowvale",
 		"shortName": "DarknessOfHallowvale",
-		"url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale"
+		"url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
+		"releaseOrder": "110",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Slug Menace",
 		"shortName": "TheSlugMenace",
-		"url": "https://oldschool.runescape.wiki/w/The_Slug_Menace"
+		"url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
+		"releaseOrder": "111",
+		"series": "Temple Knight",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Elemental Workshop II",
 		"shortName": "ElementalWorkshopIi",
-		"url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II"
+		"url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
+		"releaseOrder": "112",
+		"series": "Elemental Workshop",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "My Arm's Big Adventure",
 		"shortName": "MyArmsBigAdventure",
-		"url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure"
+		"url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
+		"releaseOrder": "113",
+		"series": "Troll",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Enlightened Journey",
 		"shortName": "EnlightenedJourney",
-		"url": "https://oldschool.runescape.wiki/w/Enlightened_Journey"
+		"url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
+		"releaseOrder": "114",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Eagles' Peak",
 		"shortName": "EaglesPeak",
-		"url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak"
+		"url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
+		"releaseOrder": "115",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Animal Magnetism",
 		"shortName": "AnimalMagnetism",
-		"url": "https://oldschool.runescape.wiki/w/Animal_Magnetism"
+		"url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
+		"releaseOrder": "116",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Contact!",
 		"shortName": "Contact",
-		"url": "https://oldschool.runescape.wiki/w/Contact!"
+		"url": "https://oldschool.runescape.wiki/w/Contact!",
+		"releaseOrder": "117",
+		"series": "Kharidian",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Cold War",
 		"shortName": "ColdWar",
-		"url": "https://oldschool.runescape.wiki/w/Cold_War"
+		"url": "https://oldschool.runescape.wiki/w/Cold_War",
+		"releaseOrder": "118",
+		"series": "Penguin",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Fremennik Isles",
 		"shortName": "TheFremennikIsles",
-		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles"
+		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
+		"releaseOrder": "119",
+		"series": "Fremennik",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Great Brain Robbery",
 		"shortName": "TheGreatBrainRobbery",
-		"url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery"
+		"url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
+		"releaseOrder": "121",
+		"series": "Pirate",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "What Lies Below",
 		"shortName": "WhatLiesBelow",
-		"url": "https://oldschool.runescape.wiki/w/What_Lies_Below"
+		"url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
+		"releaseOrder": "122",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Olaf's Quest",
 		"shortName": "OlafsQuest",
-		"url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
+		"releaseOrder": "123",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Another Slice of H.A.M.",
 		"shortName": "AnotherSliceOfHam",
-		"url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M."
+		"url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
+		"releaseOrder": "124",
+		"series": "Dorgeshuun",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Dream Mentor",
 		"shortName": "DreamMentor",
-		"url": "https://oldschool.runescape.wiki/w/Dream_Mentor"
+		"url": "https://oldschool.runescape.wiki/w/Dream_Mentor",
+		"releaseOrder": "125",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Grim Tales",
 		"shortName": "GrimTales",
-		"url": "https://oldschool.runescape.wiki/w/Grim_Tales"
+		"url": "https://oldschool.runescape.wiki/w/Grim_Tales",
+		"releaseOrder": "126",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "King's Ransom",
 		"shortName": "KingsRansom",
-		"url": "https://oldschool.runescape.wiki/w/King%27s_Ransom"
+		"url": "https://oldschool.runescape.wiki/w/King%27s_Ransom",
+		"releaseOrder": "127",
+		"series": "Camelot",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Shilo Village",
 		"shortName": "ShiloVillage",
-		"url": "https://oldschool.runescape.wiki/w/Shilo_Village"
+		"url": "https://oldschool.runescape.wiki/w/Shilo_Village",
+		"releaseOrder": "41",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Biohazard",
 		"shortName": "Biohazard",
-		"url": "https://oldschool.runescape.wiki/w/Biohazard"
+		"url": "https://oldschool.runescape.wiki/w/Biohazard",
+		"releaseOrder": "38",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tower of Life",
 		"shortName": "TowerOfLife",
-		"url": "https://oldschool.runescape.wiki/w/Tower_of_Life"
+		"url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
+		"releaseOrder": "120",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Rag and Bone Man II",
 		"shortName": "RagAndBoneManIi",
-		"url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II"
+		"url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
+		"releaseOrder": "131",
+		"series": "Rag and Bone Man",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Land of the Goblins",
 		"shortName": "LandOfTheGoblins",
-		"url": "https://oldschool.runescape.wiki/w/Land_of_the_Goblins"
+		"url": "https://oldschool.runescape.wiki/w/Land_of_the_Goblins",
+		"releaseOrder": "151",
+		"series": "Dorgeshuun",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Zogre Flesh Eaters",
 		"shortName": "ZogreFleshEaters",
-		"url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters"
+		"url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
+		"releaseOrder": "80",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Monkey Madness II",
 		"shortName": "MonkeyMadnessIi",
-		"url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II"
+		"url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
+		"releaseOrder": "128",
+		"series": "Gnome",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Client of Kourend",
 		"shortName": "ClientOfKourend",
-		"url": "https://oldschool.runescape.wiki/w/Client_of_Kourend"
+		"url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
+		"releaseOrder": "130",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Queen of Thieves",
 		"shortName": "TheQueenOfThieves",
-		"url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves"
+		"url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
+		"releaseOrder": "133",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Bone Voyage",
 		"shortName": "BoneVoyage",
-		"url": "https://oldschool.runescape.wiki/w/Bone_Voyage"
+		"url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
+		"releaseOrder": "132",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Dragon Slayer II",
 		"shortName": "DragonSlayerIi",
-		"url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II"
+		"url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
+		"releaseOrder": "136",
+		"series": "Dragonkin",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Depths of Despair",
 		"shortName": "TheDepthsOfDespair",
-		"url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair"
+		"url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
+		"releaseOrder": "134",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Another Cook's Quest",
 		"shortName": "RecipeForDisasteranotherCooksQuest",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Another_Cook%27s_Quest"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Another_Cook%27s_Quest",
+		"releaseOrder": "100.1",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing the Goblin generals",
 		"shortName": "RecipeForDisasterfreeingTheGoblinGenerals",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Goblin_generals"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Goblin_generals",
+		"releaseOrder": "100.3",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing the Mountain Dwarf",
 		"shortName": "RecipeForDisasterfreeingTheMountainDwarf",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+		"releaseOrder": "100.2",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Evil Dave",
 		"shortName": "RecipeForDisasterfreeingEvilDave",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Evil_Dave"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Evil_Dave",
+		"releaseOrder": "100.6",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Pirate Pete",
 		"shortName": "RecipeForDisasterfreeingPiratePete",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+		"releaseOrder": "100.4",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing the Lumbridge Guide",
 		"shortName": "RecipeForDisasterfreeingTheLumbridgeGuide",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+		"releaseOrder": "100.5",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Sir Amik Varze",
 		"shortName": "RecipeForDisasterfreeingSirAmikVarze",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+		"releaseOrder": "100.8",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing King Awowogei",
 		"shortName": "RecipeForDisasterfreeingKingAwowogei",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_King_Awowogei"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_King_Awowogei",
+		"releaseOrder": "100.7",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Freeing Skrach Uglogwee",
 		"shortName": "RecipeForDisasterfreeingSkrachUglogwee",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+		"releaseOrder": "100.9",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Taste of Hope",
 		"shortName": "ATasteOfHope",
-		"url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope"
+		"url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
+		"releaseOrder": "138",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Tale of the Righteous",
 		"shortName": "TaleOfTheRighteous",
-		"url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous"
+		"url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
+		"releaseOrder": "137",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Making Friends with My Arm",
 		"shortName": "MakingFriendsWithMyArm",
-		"url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm"
+		"url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
+		"releaseOrder": "139",
+		"series": "Troll",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Recipe for Disaster/Defeating the Culinaromancer",
 		"shortName": "RecipeForDisasterdefeatingTheCulinaromancer",
-		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Defeating_the_Culinaromancer"
+		"url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Defeating_the_Culinaromancer",
+		"releaseOrder": "100.10",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Song of the Elves",
 		"shortName": "SongOfTheElves",
-		"url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves"
+		"url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
+		"releaseOrder": "143",
+		"series": "Elf",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Ascent of Arceuus",
 		"shortName": "TheAscentOfArceuus",
-		"url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus"
+		"url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
+		"releaseOrder": "141",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Forsaken Tower",
 		"shortName": "TheForsakenTower",
-		"url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower"
+		"url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
+		"releaseOrder": "140",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "The Fremennik Exiles",
 		"shortName": "TheFremennikExiles",
-		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles"
+		"url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
+		"releaseOrder": "144",
+		"series": "Fremennik",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Sins of the Father",
 		"shortName": "SinsOfTheFather",
-		"url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father"
+		"url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
+		"releaseOrder": "145",
+		"series": "Myreque",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Kingdom Divided",
 		"shortName": "AKingdomDivided",
-		"url": "https://oldschool.runescape.wiki/w/A_Kingdom_Divided"
+		"url": "https://oldschool.runescape.wiki/w/A_Kingdom_Divided",
+		"releaseOrder": "150",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Porcine of Interest",
 		"shortName": "APorcineOfInterest",
-		"url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest"
+		"url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
+		"releaseOrder": "146",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Getting Ahead",
 		"shortName": "GettingAhead",
-		"url": "https://oldschool.runescape.wiki/w/Getting_Ahead"
+		"url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
+		"releaseOrder": "147",
+		"series": "Twisted Tales",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "A Night at the Theatre",
 		"shortName": "ANightAtTheTheatre",
-		"url": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre"
+		"url": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre",
+		"releaseOrder": "149",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Beneath Cursed Sands",
 		"shortName": "BeneathCursedSands",
-		"url": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands"
+		"url": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands",
+		"releaseOrder": "153",
+		"series": "Kharidian",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Temple of the Eye",
 		"shortName": "TempleOfTheEye",
-		"url": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye"
+		"url": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye",
+		"releaseOrder": "152",
+		"series": "Order of Wizards",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Sleeping Giants",
 		"shortName": "SleepingGiants",
-		"url": "https://oldschool.runescape.wiki/w/Sleeping_Giants"
+		"url": "https://oldschool.runescape.wiki/w/Sleeping_Giants",
+		"releaseOrder": "154",
+		"series": "",
+		"members": true,
+		"miniquest": false
 	},
 	{
 		"name": "Alfred Grimhand's Barcrawl",
 		"shortName": "AlfredGrimhandsBarcrawl",
-		"url": "https://oldschool.runescape.wiki/w/Alfred_Grimhand%27s_Barcrawl"
+		"url": "https://oldschool.runescape.wiki/w/Alfred_Grimhand%27s_Barcrawl",
+		"releaseOrder": "25 March 2002",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Architectural Alliance",
 		"shortName": "ArchitecturalAlliance",
-		"url": "https://oldschool.runescape.wiki/w/Architectural_Alliance"
+		"url": "https://oldschool.runescape.wiki/w/Architectural_Alliance",
+		"releaseOrder": "3 March 2016",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Bear Your Soul",
 		"shortName": "BearYourSoul",
-		"url": "https://oldschool.runescape.wiki/w/Bear_Your_Soul"
+		"url": "https://oldschool.runescape.wiki/w/Bear_Your_Soul",
+		"releaseOrder": "19 March 2016",
+		"series": "Great Kourend",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Curse of the Empty Lord",
 		"shortName": "CurseOfTheEmptyLord",
-		"url": "https://oldschool.runescape.wiki/w/Curse_of_the_Empty_Lord"
+		"url": "https://oldschool.runescape.wiki/w/Curse_of_the_Empty_Lord",
+		"releaseOrder": "26 July 2005",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Daddy's Home",
 		"shortName": "DaddysHome",
-		"url": "https://oldschool.runescape.wiki/w/Daddy%27s_Home"
+		"url": "https://oldschool.runescape.wiki/w/Daddy%27s_Home",
+		"releaseOrder": "26 August 2020",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "The Enchanted Key",
 		"shortName": "TheEnchantedKey",
-		"url": "https://oldschool.runescape.wiki/w/The_Enchanted_Key"
+		"url": "https://oldschool.runescape.wiki/w/The_Enchanted_Key",
+		"releaseOrder": "22 November 2005",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Enter the Abyss",
 		"shortName": "EnterTheAbyss",
-		"url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss"
+		"url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss",
+		"releaseOrder": "13 June 2005",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Family Pest",
 		"shortName": "FamilyPest",
-		"url": "https://oldschool.runescape.wiki/w/Family_Pest"
+		"url": "https://oldschool.runescape.wiki/w/Family_Pest",
+		"releaseOrder": "1 September 2016",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "The Frozen Door",
 		"shortName": "TheFrozenDoor",
-		"url": "https://oldschool.runescape.wiki/w/The_Frozen_Door"
+		"url": "https://oldschool.runescape.wiki/w/The_Frozen_Door",
+		"releaseOrder": "16 December 2021",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "The General's Shadow",
 		"shortName": "TheGeneralsShadow",
-		"url": "https://oldschool.runescape.wiki/w/The_General%27s_Shadow"
+		"url": "https://oldschool.runescape.wiki/w/The_General%27s_Shadow",
+		"releaseOrder": "12 February 2007",
+		"series": "Mahjarrat",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Hopespear's Will",
 		"shortName": "HopespearsWill",
-		"url": "https://oldschool.runescape.wiki/w/Hopespear%27s_Will"
+		"url": "https://oldschool.runescape.wiki/w/Hopespear%27s_Will",
+		"releaseOrder": "9 February 2022",
+		"series": "Dorgeshuun",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "In Search of Knowledge",
 		"shortName": "InSearchOfKnowledge",
-		"url": "https://oldschool.runescape.wiki/w/In_Search_of_Knowledge"
+		"url": "https://oldschool.runescape.wiki/w/In_Search_of_Knowledge",
+		"releaseOrder": "4 July 2019",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Lair of Tarn Razorlor",
 		"shortName": "LairOfTarnRazorlor",
-		"url": "https://oldschool.runescape.wiki/w/Lair_of_Tarn_Razorlor"
+		"url": "https://oldschool.runescape.wiki/w/Lair_of_Tarn_Razorlor",
+		"releaseOrder": "22 January 2007",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Mage Arena I",
 		"shortName": "MageArenaI",
-		"url": "https://oldschool.runescape.wiki/w/Mage_Arena_I"
+		"url": "https://oldschool.runescape.wiki/w/Mage_Arena_I",
+		"releaseOrder": "22 September 2003",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Mage Arena II",
 		"shortName": "MageArenaIi",
-		"url": "https://oldschool.runescape.wiki/w/Mage_Arena_II"
+		"url": "https://oldschool.runescape.wiki/w/Mage_Arena_II",
+		"releaseOrder": "23 November 2017",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	},
 	{
 		"name": "Skippy and the Mogres",
 		"shortName": "SkippyAndTheMogres",
-		"url": "https://oldschool.runescape.wiki/w/Skippy_and_the_Mogres"
+		"url": "https://oldschool.runescape.wiki/w/Skippy_and_the_Mogres",
+		"releaseOrder": "24 October 2005",
+		"series": "",
+		"members": true,
+		"miniquest": true
 	}
 ]

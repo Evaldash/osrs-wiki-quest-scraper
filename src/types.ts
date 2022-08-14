@@ -1,4 +1,6 @@
 export type Quest = {
+    releaseOrder: string,
+   
     miniquest: boolean;
     name: string;
     shortName: string;
