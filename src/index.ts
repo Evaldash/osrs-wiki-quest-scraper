@@ -1,4 +1,3 @@
-import { Quest } from './types';
 import {
     getBaseQuestList
     ,readQuestFile
@@ -7,9 +6,6 @@ import {
 } from './functions';
 import * as fs from 'fs';
 import * as chalk from 'chalk';
-
-
-export const verboseDebugEnabled = false;
 
 
 const main = async () => {

@@ -1,6 +1,7 @@
-import {getQuests, addQuestSkills} from '../src/functions';
+import {getBaseQuestList} from '../src/functions';
+import { Quest } from '../src/types';
 
-let sampleQuestJson = `
+let sampleFutureQuest = `
 {
 	"name": "Lost City",
 	"url": "https://oldschool.runescape.wiki/w/Lost_City",
@@ -19,11 +20,32 @@ let sampleQuestJson = `
 }
 `;
 
-const sampleQuest = JSON.parse(sampleQuestJson);
 
-test('Checks if Lost City quest is parsed properly', async () => {
-		const quests = await getQuests();
-		const questsWithSkills = await addQuestSkills(quests);
+let sampleQuestJson = 
+`	{
+	"name": "Bone Voyage",
+	"shortName": "BoneVoyage",
+	"url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
+	"series": "",
+	"releaseOrder": "132",
+	"members": true,
+	"miniquest": false
+}`
 
-		expect(questsWithSkills).toContainEqual(sampleQuest);
+
+describe("Main tests", () => {
+	const sampleQuest = JSON.parse(sampleQuestJson);
+	let quests = {} as Quest[];
+
+	beforeAll(async () => {
+		quests = await getBaseQuestList();
+	})
+	
+	test('Bone Voyage quest is parsed properly', () => {
+		expect(quests).toContainEqual(sampleQuest);
+	})
+
+	test('Fetched quest count is at least 180', () => {
+		expect(quests.length).toBeGreaterThanOrEqual(180);
+	})
 })

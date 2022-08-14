@@ -6,9 +6,9 @@ import axios from 'axios';
 import {Quest, QuestReq, QuestReward} from './types';
 import chalk = require('chalk');
 
-import { verboseDebugEnabled } from '.';
+const verboseDebugEnabled = false;
 
-export const omitKeys = (obj: any, keys: string[]) => {
+const omitKeys = (obj: any, keys: string[]) => {
     var dup = {} as any;
     for (const key in obj) {
         if (keys.indexOf(key) == -1) {
@@ -30,8 +30,7 @@ const toPascalCase = (string: string) => {
       .replace(new RegExp(/\w/), s => s.toUpperCase());
 }
 
-// TODO: identify f2p, members, and miniquests
-export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
+const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
     const qListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
     const qList: Quest[] = [];
 
@@ -65,8 +64,8 @@ export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, re
                                 case "Series":       seriesColIndex = i;        break;
 
                                 // case "QP Reward":    qPointsRewardColIndex = i; break; FIXME: handle special column
-                                // case "Release date": relDateColIndex = i;       break; FIXME: multiple a elements inside
-                                
+                                case "Release date": relDateColIndex = i;       break; // FIXME: multiple a elements inside
+                            
                                 case "Difficulty": case "Length": {} break;
                             }
                         })
@@ -120,6 +119,7 @@ export const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, re
 
 
 const verboseDebug = (msg: string) => {
+    
     if (!verboseDebugEnabled) return
 
     console.log(msg);
@@ -134,7 +134,7 @@ const writeCheerioToFile = (html: string) => {
      );
 }
 
-export const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
+const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
     const questURL = quest.url;
 
     axios(questURL) // get the quest info
@@ -168,7 +168,7 @@ export const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(functi
 })
 
 
-export const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, reject){
+const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, reject){
     try{
         const filePath = path.join(__dirname, '../output/quests-TODO.json');
         const quests = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Quest[];
@@ -180,7 +180,7 @@ export const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, 
 })
 
 
-export const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
+const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
     const missingQuests = [] as Quest[];
 
     wikiQuests.forEach((wikiQuest) => {
@@ -190,3 +190,5 @@ export const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => 
 
     return(missingQuests);
 }
+
+export {findMissingQuests, readQuestFile, extractQuestInfo, getBaseQuestList, omitKeys}
