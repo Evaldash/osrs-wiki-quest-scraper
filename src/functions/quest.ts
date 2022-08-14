@@ -1,55 +1,32 @@
+import { QUEST_LIST_TABLE, QUEST_LIST_URL, WIKI_TABLE_TYPES, WIKI_BASE_URL, QUEST_DETAILS_TABLE } from '../constants';
 import * as  path from 'path';
 import * as fs from 'fs';
 import {load} from 'cheerio';
 import axios from 'axios';
 
-import {Quest, QuestReq, QuestReward} from './types';
-import chalk = require('chalk');
-
-const verboseDebugEnabled = false;
-
-const omitKeys = (obj: any, keys: string[]) => {
-    var dup = {} as any;
-    for (const key in obj) {
-        if (keys.indexOf(key) == -1) {
-            dup[key] = obj[key];
-        }
-    }
-    return dup;
-}
-
-const toPascalCase = (string: string) => {
-    return `${string}`
-      .toLowerCase()
-      .replace(new RegExp(/[-_]+/, 'g'), ' ')
-      .replace(new RegExp(/[^\w\s]/, 'g'), '')
-      .replace(
-        new RegExp(/\s+(.)(\w*)/, 'g'),
-        ($1, $2, $3) => `${$2.toUpperCase() + $3}`
-      )
-      .replace(new RegExp(/\w/), s => s.toUpperCase());
-}
+import { Quest, QuestReq, QuestReward, ItemReq } from '../types';
+import * as chalk from  'chalk';
+import { toPascalCase, verboseDebug } from './generic';
 
 const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
-    const qListURL = 'https://oldschool.runescape.wiki/w/Quests/List';
     const qList: Quest[] = [];
 
     try {
-        axios(qListURL) // get all quests
+        axios(QUEST_LIST_URL) // get all quests
             .then(response => {
                 const html = response.data.replace(/(\r\n|\n|\r)/gm, "");
                 let $ = load(html);
 
   
                 $(".wikitable", html).each(function() {
-                    let questNumberColIndex = -1, nameColIndex = -1, seriesColIndex = -1, relDateColIndex = -1;
+                    let questNumberColIndex = -1, nameColIndex = -1, seriesColIndex = -1, relDateColIndex = -1, qPointsRewardColIndex = -1;
                     let wikitable = this;
 
                     const sectionTitle = $(wikitable).prevAll("h2").first().find("span").attr("id");
 
-                    const isMembersTable   = (sectionTitle === "Members'_quests");
-                    const isF2pTable       = (sectionTitle === "Free-to-play_quests");
-                    const isMiniquestTable = (sectionTitle === "Miniquests");
+                    const isMembersTable   = (sectionTitle === WIKI_TABLE_TYPES.QUEST_MEMBERS);
+                    const isF2pTable       = (sectionTitle === WIKI_TABLE_TYPES.QUEST_F2P);
+                    const isMiniquestTable = (sectionTitle === WIKI_TABLE_TYPES.QUEST_MINIQUEST);
 
                     // find column places
                     $(wikitable)  
@@ -59,14 +36,14 @@ const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
                         .find("th")
                         .each((i, el) => {
                             switch($(el).text()) {
-                                case "#":            questNumberColIndex = i;   break;
-                                case "Name":         nameColIndex = i;          break;
-                                case "Series":       seriesColIndex = i;        break;
+                                case QUEST_LIST_TABLE.QUEST_NO:     questNumberColIndex = i;   break;
+                                case QUEST_LIST_TABLE.NAME:         nameColIndex = i;          break;
+                                case QUEST_LIST_TABLE.SERIES:       seriesColIndex = i;        break;
 
-                                // case "QP Reward":    qPointsRewardColIndex = i; break; FIXME: handle special column
-                                case "Release date": relDateColIndex = i;       break; // FIXME: multiple a elements inside
+                               // case QUEST_LIST_TABLE.QUESTPOINTS:    qPointsRewardColIndex = i; break; //FIXME: handle special column
+                                //case QUEST_LIST_TABLE.RELEASE_DATE: relDateColIndex = i;       break; // FIXME: multiple a elements inside
                             
-                                case "Difficulty": case "Length": {} break;
+                                case QUEST_LIST_TABLE.DIFFICULTY: case QUEST_LIST_TABLE.LENGTH: {} break;
                             }
                         })
 
@@ -95,7 +72,7 @@ const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
 
                                     quest.name = qName;
                                     quest.shortName = toPascalCase(qName);
-                                    quest.url = `https://oldschool.runescape.wiki${questLink}`;
+                                    quest.url = WIKI_BASE_URL + questLink;
                                     quest.series = qSeries;
 
                                     if (!(isMembersTable || isMiniquestTable) && !isF2pTable) console.warn(chalk.yellow("Warning: unknown quest table, assuming quest is members"));
@@ -118,22 +95,6 @@ const getBaseQuestList = () => new Promise<Quest[]>(function (resolve, reject){
 })
 
 
-const verboseDebug = (msg: string) => {
-    
-    if (!verboseDebugEnabled) return
-
-    console.log(msg);
-}
-
-
-const writeCheerioToFile = (html: string) => {
-    fs.writeFile ("./output/downloaded.html", html, function(err) {
-        if (err) throw err;
-         console.log(chalk.green('Downloaded html saved to /output/downloaded.html'));
-         }
-     );
-}
-
 const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (resolve, reject){
     const questURL = quest.url;
 
@@ -149,16 +110,17 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
                     const detailType = $(this).find("th").html();
                     const detailsHtml = $(this).find(".questdetails-info").html() as any;
 
+
                     switch (detailType){
-                        case 'Official difficulty': quest.difficulty = detailsHtml; break;
-                        case 'Description': quest.description = detailsHtml;        break;
-                        case 'Official length': quest.questLength = detailsHtml;    break;
-                        case 'Requirements': /* TODO */ {};                         break;
-                        case 'Items required': /* TODO */ {};                       break;
-                        case 'Recommended': /* TODO */ {};                          break;
-                        case 'Enemies to defeat': /* TODO */ {};                    break;
+                        case QUEST_DETAILS_TABLE.DIFFICULTY: quest.difficulty = detailsHtml;                             break;
+                        case QUEST_DETAILS_TABLE.DESCRIPTION: quest.description = detailsHtml;                           break;
+                        case QUEST_DETAILS_TABLE.QUEST_LENGTH: quest.questLength = detailsHtml;                          break;
+                        case QUEST_DETAILS_TABLE.REQUIREMENTS: quest.requirements = extractGeneralReq(detailsHtml);      break;
+                        case QUEST_DETAILS_TABLE.ITEMS_REQUIRED: quest.itemsRequired = extractItemsReq(detailsHtml);     break;
+                        case QUEST_DETAILS_TABLE.RECOMMENDED: /* TODO */ {};                                             break;
+                        case QUEST_DETAILS_TABLE.ENEMIES: /* TODO */ {};                                                 break;
                         
-                        case 'Ironman concerns':case 'Start point':  {};            break; // ignore, not needed
+                        case QUEST_DETAILS_TABLE.IRON_CONCERNS:case QUEST_DETAILS_TABLE.START_POINT:  {};                 break; // ignore, not needed
                         
                         default: {console.warn(`Warning: Unknown quest detail type: ${detailType}`)}
                     }
@@ -166,11 +128,20 @@ const extractQuestInfo = (quest: Quest) => new Promise<Quest|null>(function (res
                 resolve(quest);
         })
 })
+// TODO
+const extractItemsReq = (html: string) => {
+    return [];
+}
+
+// TODO
+const extractGeneralReq = (html: string) => {
+    return [];
+}
 
 
 const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, reject){
     try{
-        const filePath = path.join(__dirname, '../output/quests-TODO.json');
+        const filePath = path.join(__dirname, '../../output/quests-TODO.json');
         const quests = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Quest[];
         resolve(quests);
     }
@@ -178,7 +149,6 @@ const readQuestFile = () => new Promise<Quest[]|null>(function (resolve, reject)
         reject(err)
     }
 })
-
 
 const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
     const missingQuests = [] as Quest[];
@@ -191,4 +161,4 @@ const findMissingQuests = (wikiQuests: Quest[], localQuests: Quest[]) => {
     return(missingQuests);
 }
 
-export {findMissingQuests, readQuestFile, extractQuestInfo, getBaseQuestList, omitKeys}
+export {findMissingQuests, readQuestFile, extractQuestInfo, getBaseQuestList}

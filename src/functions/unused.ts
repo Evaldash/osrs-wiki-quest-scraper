@@ -1,7 +1,7 @@
 import axios from "axios";
 import { load } from "cheerio";
-import { omitKeys } from "./functions";
-import { Quest, QuestReq } from "./types";
+import { omitKeys } from "./generic";
+import { Quest, QuestReq } from "../types";
 
 const skillNames = [
     'Agility', 'Attack', 'Construction', 'Cooking', 'Crafting', 'Defence', 'Farming', 'Firemaking', 'Fishing', 'Fletching', 'Herblore',

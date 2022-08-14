@@ -18,16 +18,41 @@ export type Quest = {
     itemsRecommended: string[];
     enemiesToDefeat: string[];
 }
-export type QuestReq = {
-   url: string;
-   skill: string;
-   level: string;
-   boostable: boolean;
-}
+
 
 export type QuestReward = {
    exp: string;
    questPoints: string;
    miscellaneous: string[];
    other: string[];
+}
+
+
+
+
+
+
+export type SkillReq = {
+   skill: string;
+   level: number;
+   boostable: boolean;
+}
+
+export type ItemReq = {
+   name: string;
+   qty: number;
+}
+
+
+
+
+
+/**
+ *  @deprecated, the Type should not be used
+ */ 
+export type QuestReq = {
+   url: string;
+   skill: string;
+   level: string;
+   boostable: boolean;
 }

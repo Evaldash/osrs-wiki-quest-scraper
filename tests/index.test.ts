@@ -1,4 +1,4 @@
-import {getBaseQuestList} from '../src/functions';
+import {getBaseQuestList} from '../src/functions/quest';
 import { Quest } from '../src/types';
 
 let sampleFutureQuest = `
